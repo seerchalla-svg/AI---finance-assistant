@@ -1,0 +1,1347 @@
+transaction_id,user_id,date,description,amount,transaction_type,category,merchant
+1,1,2025-01-01,LPG cylinder booking,896.21,expense,Bills,LPG cylinder booking
+2,1,2025-01-01,IRCTC train ticket,1194.82,expense,Transport,IRCTC train ticket
+3,1,2025-01-03,Salary credited,31445.84,income,Income,Employer/Institute
+4,1,2025-01-04,McDonalds,257.03,expense,Food,McDonalds
+5,1,2025-01-05,Ola cab,338.2,expense,Transport,Ola cab
+6,1,2025-01-05,Bus pass recharge,753.33,expense,Transport,Bus pass recharge
+7,1,2025-01-06,Bus pass recharge,564.09,expense,Transport,Bus pass recharge
+8,1,2025-01-06,Exam registration fee,854.22,expense,Education,Exam registration fee
+9,1,2025-01-07,Myntra fashion order,1141.83,expense,Shopping,Myntra fashion order
+10,1,2025-01-10,Society maintenance charge,2945.25,expense,Bills,Society maintenance charge
+11,1,2025-01-11,Coursera subscription,2645.2,expense,Education,Coursera subscription
+12,1,2025-01-15,IndiGo flight booking,6129.78,expense,Transport,IndiGo flight booking
+13,1,2025-01-15,ACT Fibernet broadband bill,1304.72,expense,Bills,ACT Fibernet broadband bill
+14,1,2025-01-16,BESCOM electricity bill,1477.59,expense,Bills,BESCOM electricity bill
+15,1,2025-01-16,BESCOM electricity bill,689.45,expense,Bills,BESCOM electricity bill
+16,1,2025-01-20,Starbucks Coffee,265.61,expense,Food,Starbucks Coffee
+17,1,2025-01-21,Campus mess bill,1687.09,expense,Food,Campus mess bill
+18,1,2025-01-25,Ajio order,2522.64,expense,Shopping,Ajio order
+19,1,2025-01-27,Ajio order,1774.79,expense,Shopping,Ajio order
+20,1,2025-01-27,DMart grocery shopping,1312.08,expense,Food,DMart grocery shopping
+21,1,2025-01-28,Decathlon sports gear,312.81,expense,Shopping,Decathlon sports gear
+22,1,2025-01-29,ACT Fibernet broadband bill,1118.25,expense,Bills,ACT Fibernet broadband bill
+23,1,2025-01-31,Cafe Coffee Day,214.61,expense,Food,Cafe Coffee Day
+24,1,2025-01-31,Local tiffin service,79.85,expense,Food,Local tiffin service
+25,1,2025-02-01,Water bill payment,516.96,expense,Bills,Water bill payment
+26,1,2025-02-01,Salary credited,33400.54,income,Income,Employer/Institute
+27,1,2025-02-02,McDonalds,231.4,expense,Food,McDonalds
+28,1,2025-02-05,Metro card recharge,463.03,expense,Transport,Metro card recharge
+29,1,2025-02-05,Myntra fashion order,1428.97,expense,Shopping,Myntra fashion order
+30,1,2025-02-06,Swiggy order - UPI,407.63,expense,Food,Swiggy order
+31,1,2025-02-08,Auto fare,36.66,expense,Transport,Auto fare
+32,1,2025-02-08,Amazon purchase - MG Road,2518.71,expense,Shopping,Amazon purchase
+33,1,2025-02-08,Coursera subscription,2947.9,expense,Education,Coursera subscription
+34,1,2025-02-10,Hostel/room rent,7698.71,expense,Bills,Hostel/room rent
+35,1,2025-02-10,Starbucks Coffee,283.44,expense,Food,Starbucks Coffee
+36,1,2025-02-11,DMart grocery shopping,1384.2,expense,Food,DMart grocery shopping
+37,1,2025-02-12,BESCOM electricity bill,1555.66,expense,Bills,BESCOM electricity bill
+38,1,2025-02-14,LPG cylinder booking,1033.0,expense,Bills,LPG cylinder booking
+39,1,2025-02-14,Auto fare,81.92,expense,Transport,Auto fare
+40,1,2025-02-17,ACT Fibernet broadband bill,1242.47,expense,Bills,ACT Fibernet broadband bill
+41,1,2025-02-18,Doctor consultation fee,995.02,expense,Health,Doctor consultation fee
+42,1,2025-02-21,Croma electronics,5400.3,expense,Shopping,Croma electronics
+43,1,2025-02-22,Rapido bike taxi,144.58,expense,Transport,Rapido bike taxi
+44,1,2025-02-22,Campus mess bill,1534.99,expense,Food,Campus mess bill
+45,1,2025-02-22,Airtel postpaid bill,1078.38,expense,Bills,Airtel postpaid bill
+46,1,2025-02-22,Family transfer received,3852.3,income,Income,Family transfer received
+47,1,2025-02-24,Dr Lal PathLabs test,912.38,expense,Health,Dr Lal PathLabs test
+48,1,2025-02-25,Myntra fashion order,2378.91,expense,Shopping,Myntra fashion order
+49,1,2025-02-27,Spotify Premium,121.06,expense,Entertainment,Spotify Premium
+50,1,2025-02-28,Chai/tea stall,31.37,expense,Food,Chai/tea stall
+51,1,2025-03-01,LPG cylinder booking,921.21,expense,Bills,LPG cylinder booking
+52,1,2025-03-03,Salary credited,30897.35,income,Income,Employer/Institute
+53,1,2025-03-06,Health insurance premium,5587.4,expense,Health,Health insurance premium
+54,1,2025-03-06,Airtel postpaid bill,952.52,expense,Bills,Airtel postpaid bill
+55,1,2025-03-07,Hostel/room rent,8544.03,expense,Bills,Hostel/room rent
+56,1,2025-03-08,Campus mess bill,2866.24,expense,Food,Campus mess bill
+57,1,2025-03-09,Croma electronics,12230.56,expense,Shopping,Croma electronics
+58,1,2025-03-09,Local tiffin service,66.47,expense,Food,Local tiffin service
+59,1,2025-03-10,Udemy course purchase,637.64,expense,Education,Udemy course purchase
+60,1,2025-03-13,Myntra fashion order,529.11,expense,Shopping,Myntra fashion order
+61,1,2025-03-17,Auto fare,38.13,expense,Transport,Auto fare
+62,1,2025-03-18,Stationery/printouts,332.6,expense,Education,Stationery/printouts
+63,1,2025-03-23,Uber ride,302.41,expense,Transport,Uber ride
+64,1,2025-03-24,Campus mess bill,2429.41,expense,Food,Campus mess bill
+65,1,2025-03-24,Tata Play DTH recharge,393.29,expense,Bills,Tata Play DTH recharge
+66,1,2025-03-25,Metro card recharge,272.78,expense,Transport,Metro card recharge
+67,1,2025-03-25,Netflix subscription,586.33,expense,Entertainment,Netflix subscription
+68,1,2025-03-26,IRCTC train ticket,1640.52,expense,Transport,IRCTC train ticket
+69,1,2025-03-28,Ajio order,1176.88,expense,Shopping,Ajio order
+70,1,2025-03-31,Stationery/printouts,394.98,expense,Education,Stationery/printouts
+71,1,2025-04-04,Decathlon sports gear,2227.95,expense,Shopping,Decathlon sports gear
+72,1,2025-04-04,Myntra fashion order,1185.44,expense,Shopping,Myntra fashion order
+73,1,2025-04-05,Salary credited,34355.65,income,Income,Employer/Institute
+74,1,2025-04-08,Netflix subscription,527.32,expense,Entertainment,Netflix subscription
+75,1,2025-04-08,Parking fee,22.95,expense,Transport,Parking fee
+76,1,2025-04-12,LPG cylinder booking,889.0,expense,Bills,LPG cylinder booking
+77,1,2025-04-15,Campus mess bill,3080.49,expense,Food,Campus mess bill
+78,1,2025-04-19,Amazon books order,713.75,expense,Education,Amazon books order
+79,1,2025-04-20,Local mall shopping,3048.76,expense,Shopping,Local mall shopping
+80,1,2025-04-22,Amazon purchase - monthly,3003.09,expense,Shopping,Amazon purchase
+81,1,2025-04-23,Coaching institute fee,11984.19,expense,Education,Coaching institute fee
+82,1,2025-04-25,Auto fare,59.09,expense,Transport,Auto fare
+83,1,2025-04-25,Gift purchase,211.64,expense,Other,Gift purchase
+84,1,2025-04-29,Dominos Pizza,694.99,expense,Food,Dominos Pizza
+85,1,2025-05-01,Starbucks Coffee,478.3,expense,Food,Starbucks Coffee
+86,1,2025-05-02,Apollo Pharmacy,787.74,expense,Health,Apollo Pharmacy
+87,1,2025-05-02,Salary credited,31196.81,income,Income,Employer/Institute
+88,1,2025-05-04,Flipkart order - MG Road,4905.27,expense,Shopping,Flipkart order
+89,1,2025-05-05,IndiGo flight booking,4962.59,expense,Transport,IndiGo flight booking
+90,1,2025-05-05,Barbeque Nation dinner,2478.14,expense,Food,Barbeque Nation dinner
+91,1,2025-05-06,LPG cylinder booking,884.87,expense,Bills,LPG cylinder booking
+92,1,2025-05-07,Chai/tea stall,33.13,expense,Food,Chai/tea stall
+93,1,2025-05-07,Ajio order,1116.74,expense,Shopping,Ajio order
+94,1,2025-05-08,Library fine/fee,48.87,expense,Education,Library fine/fee
+95,1,2025-05-08,Croma electronics,8168.81,expense,Shopping,Croma electronics
+96,1,2025-05-13,Myntra fashion order,467.11,expense,Shopping,Myntra fashion order
+97,1,2025-05-14,ACT Fibernet broadband bill,1098.28,expense,Bills,ACT Fibernet broadband bill
+98,1,2025-05-14,Udemy course purchase,3382.59,expense,Education,Udemy course purchase
+99,1,2025-05-15,Barbeque Nation dinner,1339.93,expense,Food,Barbeque Nation dinner
+100,1,2025-05-16,Swiggy order - campus,153.69,expense,Food,Swiggy order
+101,1,2025-05-17,Library fine/fee,84.37,expense,Education,Library fine/fee
+102,1,2025-05-19,Local tiffin service,77.53,expense,Food,Local tiffin service
+103,1,2025-05-19,IndiGo flight booking,6765.05,expense,Transport,IndiGo flight booking
+104,1,2025-05-21,Barbeque Nation dinner,1536.72,expense,Food,Barbeque Nation dinner
+105,1,2025-05-22,Local tiffin service,112.29,expense,Food,Local tiffin service
+106,1,2025-05-23,Spotify Premium,161.48,expense,Entertainment,Spotify Premium
+107,1,2025-05-23,Ola cab,364.18,expense,Transport,Ola cab
+108,1,2025-05-23,IRCTC train ticket,1189.97,expense,Transport,IRCTC train ticket
+109,1,2025-05-26,Amazon books order,448.54,expense,Education,Amazon books order
+110,1,2025-05-31,Apollo Pharmacy,92.67,expense,Health,Apollo Pharmacy
+111,1,2025-06-02,Myntra fashion order,2921.07,expense,Shopping,Myntra fashion order
+112,1,2025-06-03,LPG cylinder booking,907.2,expense,Bills,LPG cylinder booking
+113,1,2025-06-03,Water bill payment,558.72,expense,Bills,Water bill payment
+114,1,2025-06-04,Salary credited,31550.24,income,Income,Employer/Institute
+115,1,2025-06-05,BESCOM electricity bill,1609.84,expense,Bills,BESCOM electricity bill
+116,1,2025-06-07,Campus mess bill,2817.73,expense,Food,Campus mess bill
+117,1,2025-06-09,Netflix subscription,305.76,expense,Entertainment,Netflix subscription
+118,1,2025-06-10,BookMyShow movie ticket,818.79,expense,Entertainment,BookMyShow movie ticket
+119,1,2025-06-10,Barbeque Nation dinner,943.21,expense,Food,Barbeque Nation dinner
+120,1,2025-06-17,IndiGo flight booking,6992.77,expense,Transport,IndiGo flight booking
+121,1,2025-06-19,LPG cylinder booking,1092.95,expense,Bills,LPG cylinder booking
+122,1,2025-06-19,Local mall shopping,1475.26,expense,Shopping,Local mall shopping
+123,1,2025-06-20,Barbeque Nation dinner,1768.27,expense,Food,Barbeque Nation dinner
+124,1,2025-06-26,Zomato order - UPI,681.95,expense,Food,Zomato order
+125,1,2025-06-26,Local tiffin service,89.83,expense,Food,Local tiffin service
+126,1,2025-06-26,Croma electronics,14533.13,expense,Shopping,Croma electronics
+127,1,2025-06-29,BigBasket grocery order,2097.24,expense,Food,BigBasket grocery order
+128,1,2025-07-01,Local tiffin service,71.92,expense,Food,Local tiffin service
+129,1,2025-07-01,Ola cab,256.57,expense,Transport,Ola cab
+130,1,2025-07-05,Coaching institute fee,6301.03,expense,Education,Coaching institute fee
+131,1,2025-07-05,Salary credited,34462.69,income,Income,Employer/Institute
+132,1,2025-07-06,Airtel postpaid bill,440.18,expense,Bills,Airtel postpaid bill
+133,1,2025-07-08,Myntra fashion order,1027.18,expense,Shopping,Myntra fashion order
+134,1,2025-07-08,Parking fee,54.25,expense,Transport,Parking fee
+135,1,2025-07-11,Courier/shipping charge,124.59,expense,Other,Courier/shipping charge
+136,1,2025-07-14,Apollo Pharmacy,510.3,expense,Health,Apollo Pharmacy
+137,1,2025-07-14,Chai/tea stall,36.92,expense,Food,Chai/tea stall
+138,1,2025-07-14,Starbucks Coffee,234.95,expense,Food,Starbucks Coffee
+139,1,2025-07-15,Hostel/room rent,6781.38,expense,Bills,Hostel/room rent
+140,1,2025-07-15,Ola cab,136.75,expense,Transport,Ola cab
+141,1,2025-07-16,Barbeque Nation dinner,969.32,expense,Food,Barbeque Nation dinner
+142,1,2025-07-19,Local tiffin service,74.51,expense,Food,Local tiffin service
+143,1,2025-07-23,Hostel/room rent,11971.93,expense,Bills,Hostel/room rent
+144,1,2025-07-24,Starbucks Coffee,195.38,expense,Food,Starbucks Coffee
+145,1,2025-07-24,McDonalds,305.64,expense,Food,McDonalds
+146,1,2025-07-24,Bus pass recharge,518.18,expense,Transport,Bus pass recharge
+147,1,2025-07-25,Swiggy order - UPI,536.14,expense,Food,Swiggy order
+148,1,2025-07-26,McDonalds,318.38,expense,Food,McDonalds
+149,1,2025-07-27,Tata Play DTH recharge,421.03,expense,Bills,Tata Play DTH recharge
+150,1,2025-07-28,Local tiffin service,93.31,expense,Food,Local tiffin service
+151,1,2025-07-29,Local mall shopping,1338.47,expense,Shopping,Local mall shopping
+152,1,2025-07-31,Miscellaneous expense,55.21,expense,Other,Miscellaneous expense
+153,1,2025-08-01,IndiGo flight booking,5148.25,expense,Transport,IndiGo flight booking
+154,1,2025-08-03,YouTube Premium,166.99,expense,Entertainment,YouTube Premium
+155,1,2025-08-04,YouTube Premium,129.55,expense,Entertainment,YouTube Premium
+156,1,2025-08-05,Cafe Coffee Day,220.06,expense,Food,Cafe Coffee Day
+157,1,2025-08-05,Salary credited,32882.65,income,Income,Employer/Institute
+158,1,2025-08-06,Water bill payment,454.9,expense,Bills,Water bill payment
+159,1,2025-08-07,Health insurance premium,4320.41,expense,Health,Health insurance premium
+160,1,2025-08-08,Parking fee,33.64,expense,Transport,Parking fee
+161,1,2025-08-12,Spotify Premium,137.05,expense,Entertainment,Spotify Premium
+162,1,2025-08-14,Flipkart order - wallet,4827.23,expense,Shopping,Flipkart order
+163,1,2025-08-17,Health insurance premium,7620.38,expense,Health,Health insurance premium
+164,1,2025-08-18,Society maintenance charge,1866.29,expense,Bills,Society maintenance charge
+165,1,2025-08-20,Croma electronics,6440.87,expense,Shopping,Croma electronics
+166,1,2025-08-21,Rapido bike taxi,140.03,expense,Transport,Rapido bike taxi
+167,1,2025-08-21,Library fine/fee,60.43,expense,Education,Library fine/fee
+168,1,2025-08-22,Water bill payment,294.35,expense,Bills,Water bill payment
+169,1,2025-08-22,Udemy course purchase,1101.14,expense,Education,Udemy course purchase
+170,1,2025-08-23,Tata Play DTH recharge,315.71,expense,Bills,Tata Play DTH recharge
+171,1,2025-08-24,BESCOM electricity bill,1898.4,expense,Bills,BESCOM electricity bill
+172,1,2025-08-25,Jio mobile recharge,220.52,expense,Bills,Jio mobile recharge
+173,1,2025-08-27,ACT Fibernet broadband bill,965.35,expense,Bills,ACT Fibernet broadband bill
+174,1,2025-08-29,Library fine/fee,63.89,expense,Education,Library fine/fee
+175,1,2025-08-29,Ola cab,129.57,expense,Transport,Ola cab
+176,1,2025-08-31,Ajio order,2570.48,expense,Shopping,Ajio order
+177,1,2025-09-01,McDonalds,400.59,expense,Food,McDonalds
+178,1,2025-09-01,Stationery/printouts,98.13,expense,Education,Stationery/printouts
+179,1,2025-09-01,Amusement park entry,1697.84,expense,Entertainment,Amusement park entry
+180,1,2025-09-01,Salary credited,33863.73,income,Income,Employer/Institute
+181,1,2025-09-02,Chai/tea stall,24.17,expense,Food,Chai/tea stall
+182,1,2025-09-04,BigBasket grocery order,1521.94,expense,Food,BigBasket grocery order
+183,1,2025-09-05,Health insurance premium,6768.87,expense,Health,Health insurance premium
+184,1,2025-09-06,Udemy course purchase,3172.96,expense,Education,Udemy course purchase
+185,1,2025-09-16,McDonalds,196.81,expense,Food,McDonalds
+186,1,2025-09-16,Tata Play DTH recharge,704.06,expense,Bills,Tata Play DTH recharge
+187,1,2025-09-17,Miscellaneous expense,546.89,expense,Other,Miscellaneous expense
+188,1,2025-09-17,McDonalds,302.57,expense,Food,McDonalds
+189,1,2025-09-18,Dominos Pizza,868.33,expense,Food,Dominos Pizza
+190,1,2025-09-21,Tata Play DTH recharge,616.15,expense,Bills,Tata Play DTH recharge
+191,1,2025-09-23,Barbeque Nation dinner,928.2,expense,Food,Barbeque Nation dinner
+192,1,2025-09-24,Cult.fit gym membership,1225.95,expense,Health,Cult.fit gym membership
+193,1,2025-09-25,Dominos Pizza,834.23,expense,Food,Dominos Pizza
+194,1,2025-09-28,Society maintenance charge,2431.62,expense,Bills,Society maintenance charge
+195,1,2025-09-29,Ajio order,618.21,expense,Shopping,Ajio order
+196,1,2025-09-30,Cult.fit gym membership,1186.35,expense,Health,Cult.fit gym membership
+197,1,2025-10-02,Auto fare,95.61,expense,Transport,Auto fare
+198,1,2025-10-03,Bus pass recharge,664.53,expense,Transport,Bus pass recharge
+199,1,2025-10-03,Ajio order,1480.53,expense,Shopping,Ajio order
+200,1,2025-10-03,Salary credited,31346.33,income,Income,Employer/Institute
+201,1,2025-10-04,Cafe Coffee Day,176.65,expense,Food,Cafe Coffee Day
+202,1,2025-10-04,Metro card recharge,203.18,expense,Transport,Metro card recharge
+203,1,2025-10-07,Amusement park entry,669.7,expense,Entertainment,Amusement park entry
+204,1,2025-10-09,BigBasket grocery order,2059.37,expense,Food,BigBasket grocery order
+205,1,2025-10-09,Ajio order,1155.91,expense,Shopping,Ajio order
+206,1,2025-10-09,Local mall shopping,3872.67,expense,Shopping,Local mall shopping
+207,1,2025-10-11,Parking fee,86.3,expense,Transport,Parking fee
+208,1,2025-10-11,Ola cab,203.0,expense,Transport,Ola cab
+209,1,2025-10-11,Indian Oil petrol,546.32,expense,Transport,Indian Oil petrol
+210,1,2025-10-11,Monthly stipend credited,7944.49,income,Income,Monthly stipend credited
+211,1,2025-10-12,PVR Cinemas,1060.84,expense,Entertainment,PVR Cinemas
+212,1,2025-10-17,Water bill payment,405.74,expense,Bills,Water bill payment
+213,1,2025-10-18,Auto fare,47.97,expense,Transport,Auto fare
+214,1,2025-10-18,McDonalds,431.85,expense,Food,McDonalds
+215,1,2025-10-22,Local mall shopping,1152.81,expense,Shopping,Local mall shopping
+216,1,2025-10-22,Swiggy order - wallet,292.46,expense,Food,Swiggy order
+217,1,2025-10-23,ACT Fibernet broadband bill,926.28,expense,Bills,ACT Fibernet broadband bill
+218,1,2025-10-23,Steam game purchase,425.74,expense,Entertainment,Steam game purchase
+219,1,2025-10-24,Uber ride,315.9,expense,Transport,Uber ride
+220,1,2025-10-24,IRCTC train ticket,1430.51,expense,Transport,IRCTC train ticket
+221,1,2025-10-26,Cafe Coffee Day,270.23,expense,Food,Cafe Coffee Day
+222,1,2025-10-26,ACT Fibernet broadband bill,1426.26,expense,Bills,ACT Fibernet broadband bill
+223,1,2025-10-29,Decathlon sports gear,2465.31,expense,Shopping,Decathlon sports gear
+224,1,2025-10-31,Hostel/room rent,12239.0,expense,Bills,Hostel/room rent
+225,1,2025-10-31,Ajio order,1480.44,expense,Shopping,Ajio order
+226,1,2025-11-01,Apollo Pharmacy,703.84,expense,Health,Apollo Pharmacy
+227,1,2025-11-01,LPG cylinder booking,893.59,expense,Bills,LPG cylinder booking
+228,1,2025-11-02,Salary credited,31657.43,income,Income,Employer/Institute
+229,1,2025-11-05,LPG cylinder booking,934.76,expense,Bills,LPG cylinder booking
+230,1,2025-11-06,Starbucks Coffee,234.82,expense,Food,Starbucks Coffee
+231,1,2025-11-07,DMart grocery shopping,478.31,expense,Food,DMart grocery shopping
+232,1,2025-11-08,Ola cab,328.62,expense,Transport,Ola cab
+233,1,2025-11-08,Bus pass recharge,612.04,expense,Transport,Bus pass recharge
+234,1,2025-11-09,Steam game purchase,630.91,expense,Entertainment,Steam game purchase
+235,1,2025-11-10,IndiGo flight booking,5954.69,expense,Transport,IndiGo flight booking
+236,1,2025-11-12,Gift purchase,1651.62,expense,Other,Gift purchase
+237,1,2025-11-14,BESCOM electricity bill,1288.83,expense,Bills,BESCOM electricity bill
+238,1,2025-11-14,Dr Lal PathLabs test,2117.83,expense,Health,Dr Lal PathLabs test
+239,1,2025-11-15,Doctor consultation fee,1098.38,expense,Health,Doctor consultation fee
+240,1,2025-11-17,Library fine/fee,60.52,expense,Education,Library fine/fee
+241,1,2025-11-18,Coursera subscription,3424.19,expense,Education,Coursera subscription
+242,1,2025-11-22,Myntra fashion order,3124.4,expense,Shopping,Myntra fashion order
+243,1,2025-11-23,Scholarship credited,35534.1,income,Income,Scholarship credited
+244,1,2025-11-26,Hostel/room rent,10739.32,expense,Bills,Hostel/room rent
+245,1,2025-12-02,Flipkart order - online,3174.92,expense,Shopping,Flipkart order
+246,1,2025-12-05,Zomato order - Bangalore,210.04,expense,Food,Zomato order
+247,1,2025-12-05,Bus pass recharge,495.11,expense,Transport,Bus pass recharge
+248,1,2025-12-05,Salary credited,30926.59,income,Income,Employer/Institute
+249,1,2025-12-07,Local tiffin service,89.37,expense,Food,Local tiffin service
+250,1,2025-12-08,BigBasket grocery order,1561.31,expense,Food,BigBasket grocery order
+251,1,2025-12-09,Myntra fashion order,793.73,expense,Shopping,Myntra fashion order
+252,1,2025-12-09,Dr Lal PathLabs test,1276.56,expense,Health,Dr Lal PathLabs test
+253,1,2025-12-10,Auto fare,56.21,expense,Transport,Auto fare
+254,1,2025-12-11,Doctor consultation fee,782.2,expense,Health,Doctor consultation fee
+255,1,2025-12-16,Water bill payment,204.92,expense,Bills,Water bill payment
+256,1,2025-12-16,Coursera subscription,1682.81,expense,Education,Coursera subscription
+257,1,2025-12-17,Spotify Premium,158.46,expense,Entertainment,Spotify Premium
+258,1,2025-12-19,Courier/shipping charge,135.25,expense,Other,Courier/shipping charge
+259,1,2025-12-20,Flipkart order - weekend,1220.12,expense,Shopping,Flipkart order
+260,1,2025-12-23,Exam registration fee,686.21,expense,Education,Exam registration fee
+261,1,2025-12-24,Freelance project payment,8624.31,income,Income,Freelance project payment
+262,1,2025-12-26,Parking fee,71.64,expense,Transport,Parking fee
+263,1,2025-12-27,DMart grocery shopping,945.06,expense,Food,DMart grocery shopping
+264,1,2025-12-28,Steam game purchase,1816.35,expense,Entertainment,Steam game purchase
+265,1,2025-12-28,Rapido bike taxi,129.89,expense,Transport,Rapido bike taxi
+266,1,2025-12-29,Coaching institute fee,12861.95,expense,Education,Coaching institute fee
+267,2,2025-01-01,Salary credited,12665.11,income,Income,Employer/Institute
+268,2,2025-01-02,Jio mobile recharge,398.55,expense,Bills,Jio mobile recharge
+269,2,2025-01-04,Amazon books order,310.31,expense,Education,Amazon books order
+270,2,2025-01-04,Ola cab,437.55,expense,Transport,Ola cab
+271,2,2025-01-08,Decathlon sports gear,2194.37,expense,Shopping,Decathlon sports gear
+272,2,2025-01-08,Local tiffin service,97.74,expense,Food,Local tiffin service
+273,2,2025-01-12,Tata Play DTH recharge,494.08,expense,Bills,Tata Play DTH recharge
+274,2,2025-01-13,Society maintenance charge,1707.66,expense,Bills,Society maintenance charge
+275,2,2025-01-14,LPG cylinder booking,989.6,expense,Bills,LPG cylinder booking
+276,2,2025-01-15,Tata Play DTH recharge,512.11,expense,Bills,Tata Play DTH recharge
+277,2,2025-01-17,Myntra fashion order,1600.61,expense,Shopping,Myntra fashion order
+278,2,2025-01-18,BigBasket grocery order,432.8,expense,Food,BigBasket grocery order
+279,2,2025-01-21,Health insurance premium,5255.87,expense,Health,Health insurance premium
+280,2,2025-01-22,Croma electronics,12515.34,expense,Shopping,Croma electronics
+281,2,2025-01-23,IRCTC train ticket,1730.04,expense,Transport,IRCTC train ticket
+282,2,2025-01-23,Chai/tea stall,32.57,expense,Food,Chai/tea stall
+283,2,2025-01-26,BESCOM electricity bill,976.09,expense,Bills,BESCOM electricity bill
+284,2,2025-01-26,Chai/tea stall,32.38,expense,Food,Chai/tea stall
+285,2,2025-01-27,IRCTC train ticket,824.5,expense,Transport,IRCTC train ticket
+286,2,2025-01-29,Croma electronics,1169.17,expense,Shopping,Croma electronics
+287,2,2025-01-29,Health insurance premium,5216.58,expense,Health,Health insurance premium
+288,2,2025-01-31,Health insurance premium,2509.03,expense,Health,Health insurance premium
+289,2,2025-02-02,Local mall shopping,1526.24,expense,Shopping,Local mall shopping
+290,2,2025-02-03,Salary credited,12932.52,income,Income,Employer/Institute
+291,2,2025-02-04,IndiGo flight booking,7431.05,expense,Transport,IndiGo flight booking
+292,2,2025-02-05,Doctor consultation fee,650.28,expense,Health,Doctor consultation fee
+293,2,2025-02-09,Dominos Pizza,869.25,expense,Food,Dominos Pizza
+294,2,2025-02-10,LPG cylinder booking,861.36,expense,Bills,LPG cylinder booking
+295,2,2025-02-11,Society maintenance charge,1876.05,expense,Bills,Society maintenance charge
+296,2,2025-02-11,Freelance project payment,2336.55,income,Income,Freelance project payment
+297,2,2025-02-15,Cult.fit gym membership,2167.63,expense,Health,Cult.fit gym membership
+298,2,2025-02-16,BESCOM electricity bill,1440.9,expense,Bills,BESCOM electricity bill
+299,2,2025-02-16,Society maintenance charge,1267.23,expense,Bills,Society maintenance charge
+300,2,2025-02-16,Jio mobile recharge,229.28,expense,Bills,Jio mobile recharge
+301,2,2025-02-16,Charity donation,1670.27,expense,Other,Charity donation
+302,2,2025-02-16,BookMyShow movie ticket,517.44,expense,Entertainment,BookMyShow movie ticket
+303,2,2025-02-16,Library fine/fee,41.14,expense,Education,Library fine/fee
+304,2,2025-02-20,PVR Cinemas,652.45,expense,Entertainment,PVR Cinemas
+305,2,2025-02-20,Flipkart order - UPI,3984.99,expense,Shopping,Flipkart order
+306,2,2025-02-21,Gift purchase,769.78,expense,Other,Gift purchase
+307,2,2025-02-21,Coaching institute fee,12119.45,expense,Education,Coaching institute fee
+308,2,2025-02-21,Amusement park entry,807.84,expense,Entertainment,Amusement park entry
+309,2,2025-02-22,Doctor consultation fee,549.64,expense,Health,Doctor consultation fee
+310,2,2025-02-24,Charity donation,1886.44,expense,Other,Charity donation
+311,2,2025-02-25,Metro card recharge,421.39,expense,Transport,Metro card recharge
+312,2,2025-02-26,Jio mobile recharge,956.55,expense,Bills,Jio mobile recharge
+313,2,2025-02-28,Spotify Premium,167.87,expense,Entertainment,Spotify Premium
+314,2,2025-02-28,Tata Play DTH recharge,647.87,expense,Bills,Tata Play DTH recharge
+315,2,2025-03-01,IRCTC train ticket,1785.28,expense,Transport,IRCTC train ticket
+316,2,2025-03-01,Salary credited,12187.1,income,Income,Employer/Institute
+317,2,2025-03-04,Coaching institute fee,19521.83,expense,Education,Coaching institute fee
+318,2,2025-03-06,Doctor consultation fee,1105.97,expense,Health,Doctor consultation fee
+319,2,2025-03-08,Dominos Pizza,490.59,expense,Food,Dominos Pizza
+320,2,2025-03-09,BESCOM electricity bill,2111.09,expense,Bills,BESCOM electricity bill
+321,2,2025-03-11,Exam registration fee,2171.96,expense,Education,Exam registration fee
+322,2,2025-03-14,Starbucks Coffee,400.99,expense,Food,Starbucks Coffee
+323,2,2025-03-14,Water bill payment,155.11,expense,Bills,Water bill payment
+324,2,2025-03-18,Savings account interest credited,439.73,income,Income,Savings account interest credited
+325,2,2025-03-19,Courier/shipping charge,199.05,expense,Other,Courier/shipping charge
+326,2,2025-03-20,Stationery/printouts,144.79,expense,Education,Stationery/printouts
+327,2,2025-03-21,BESCOM electricity bill,1568.58,expense,Bills,BESCOM electricity bill
+328,2,2025-03-22,Myntra fashion order,731.81,expense,Shopping,Myntra fashion order
+329,2,2025-03-23,Dental clinic visit,1790.75,expense,Health,Dental clinic visit
+330,2,2025-03-24,Ola cab,230.47,expense,Transport,Ola cab
+331,2,2025-03-26,Myntra fashion order,2765.5,expense,Shopping,Myntra fashion order
+332,2,2025-03-29,Jio mobile recharge,187.51,expense,Bills,Jio mobile recharge
+333,2,2025-03-29,Myntra fashion order,1672.17,expense,Shopping,Myntra fashion order
+334,2,2025-03-30,McDonalds,257.85,expense,Food,McDonalds
+335,2,2025-03-30,McDonalds,206.44,expense,Food,McDonalds
+336,2,2025-03-31,Decathlon sports gear,1618.78,expense,Shopping,Decathlon sports gear
+337,2,2025-04-01,Water bill payment,358.66,expense,Bills,Water bill payment
+338,2,2025-04-02,Salary credited,11461.06,income,Income,Employer/Institute
+339,2,2025-04-05,Myntra fashion order,1958.6,expense,Shopping,Myntra fashion order
+340,2,2025-04-07,Library fine/fee,105.83,expense,Education,Library fine/fee
+341,2,2025-04-08,Flipkart order - campus,5015.11,expense,Shopping,Flipkart order
+342,2,2025-04-08,Starbucks Coffee,351.79,expense,Food,Starbucks Coffee
+343,2,2025-04-12,Myntra fashion order,2039.76,expense,Shopping,Myntra fashion order
+344,2,2025-04-17,ATM cash withdrawal,3636.57,expense,Other,ATM cash withdrawal
+345,2,2025-04-17,Health insurance premium,2065.03,expense,Health,Health insurance premium
+346,2,2025-04-19,Starbucks Coffee,509.76,expense,Food,Starbucks Coffee
+347,2,2025-04-21,Exam registration fee,1736.44,expense,Education,Exam registration fee
+348,2,2025-04-21,Myntra fashion order,1449.01,expense,Shopping,Myntra fashion order
+349,2,2025-04-23,BESCOM electricity bill,2133.8,expense,Bills,BESCOM electricity bill
+350,2,2025-04-26,Amazon purchase - online,1411.26,expense,Shopping,Amazon purchase
+351,2,2025-04-27,Tata Play DTH recharge,545.81,expense,Bills,Tata Play DTH recharge
+352,2,2025-04-29,Coursera subscription,2508.41,expense,Education,Coursera subscription
+353,2,2025-05-04,Salary credited,12945.94,income,Income,Employer/Institute
+354,2,2025-05-05,Dr Lal PathLabs test,453.24,expense,Health,Dr Lal PathLabs test
+355,2,2025-05-06,Rapido bike taxi,109.86,expense,Transport,Rapido bike taxi
+356,2,2025-05-08,Udemy course purchase,2305.52,expense,Education,Udemy course purchase
+357,2,2025-05-09,Courier/shipping charge,46.89,expense,Other,Courier/shipping charge
+358,2,2025-05-10,Zomato order - UPI,562.0,expense,Food,Zomato order
+359,2,2025-05-10,Freelance project payment,9237.5,income,Income,Freelance project payment
+360,2,2025-05-11,YouTube Premium,131.59,expense,Entertainment,YouTube Premium
+361,2,2025-05-16,McDonalds,423.97,expense,Food,McDonalds
+362,2,2025-05-16,Rapido bike taxi,109.5,expense,Transport,Rapido bike taxi
+363,2,2025-05-17,Amazon purchase - app,2524.27,expense,Shopping,Amazon purchase
+364,2,2025-05-17,Bus pass recharge,545.37,expense,Transport,Bus pass recharge
+365,2,2025-05-21,Dominos Pizza,563.92,expense,Food,Dominos Pizza
+366,2,2025-05-23,Decathlon sports gear,1776.67,expense,Shopping,Decathlon sports gear
+367,2,2025-05-27,YouTube Premium,185.49,expense,Entertainment,YouTube Premium
+368,2,2025-05-28,Amazon purchase - app,3683.3,expense,Shopping,Amazon purchase
+369,2,2025-05-28,IndiGo flight booking,3135.3,expense,Transport,IndiGo flight booking
+370,2,2025-05-30,Local mall shopping,2036.4,expense,Shopping,Local mall shopping
+371,2,2025-06-01,IndiGo flight booking,2616.36,expense,Transport,IndiGo flight booking
+372,2,2025-06-02,IndiGo flight booking,5091.65,expense,Transport,IndiGo flight booking
+373,2,2025-06-02,Cult.fit gym membership,1345.59,expense,Health,Cult.fit gym membership
+374,2,2025-06-03,Local mall shopping,2018.48,expense,Shopping,Local mall shopping
+375,2,2025-06-05,Barbeque Nation dinner,2413.01,expense,Food,Barbeque Nation dinner
+376,2,2025-06-05,Local mall shopping,2943.57,expense,Shopping,Local mall shopping
+377,2,2025-06-05,Salary credited,12215.49,income,Income,Employer/Institute
+378,2,2025-06-06,Coaching institute fee,22547.46,expense,Education,Coaching institute fee
+379,2,2025-06-07,Dominos Pizza,720.18,expense,Food,Dominos Pizza
+380,2,2025-06-08,Barbeque Nation dinner,2440.8,expense,Food,Barbeque Nation dinner
+381,2,2025-06-08,Ola cab,210.72,expense,Transport,Ola cab
+382,2,2025-06-09,Bank service charge,206.94,expense,Other,Bank service charge
+383,2,2025-06-12,Dr Lal PathLabs test,1877.68,expense,Health,Dr Lal PathLabs test
+384,2,2025-06-15,Hostel/room rent,6751.86,expense,Bills,Hostel/room rent
+385,2,2025-06-16,Udemy course purchase,1634.36,expense,Education,Udemy course purchase
+386,2,2025-06-17,LPG cylinder booking,894.36,expense,Bills,LPG cylinder booking
+387,2,2025-06-18,Airtel postpaid bill,1123.31,expense,Bills,Airtel postpaid bill
+388,2,2025-06-20,Decathlon sports gear,2356.32,expense,Shopping,Decathlon sports gear
+389,2,2025-06-23,Cult.fit gym membership,1091.01,expense,Health,Cult.fit gym membership
+390,2,2025-06-23,Flipkart order - campus,750.56,expense,Shopping,Flipkart order
+391,2,2025-06-23,Myntra fashion order,1185.98,expense,Shopping,Myntra fashion order
+392,2,2025-06-26,BigBasket grocery order,527.02,expense,Food,BigBasket grocery order
+393,2,2025-06-26,BookMyShow movie ticket,385.71,expense,Entertainment,BookMyShow movie ticket
+394,2,2025-06-29,Campus mess bill,2274.62,expense,Food,Campus mess bill
+395,2,2025-06-29,Scholarship credited,21293.9,income,Income,Scholarship credited
+396,2,2025-07-02,Salary credited,11967.68,income,Income,Employer/Institute
+397,2,2025-07-03,Cult.fit gym membership,2230.7,expense,Health,Cult.fit gym membership
+398,2,2025-07-03,Chai/tea stall,27.26,expense,Food,Chai/tea stall
+399,2,2025-07-03,Stationery/printouts,365.89,expense,Education,Stationery/printouts
+400,2,2025-07-05,DMart grocery shopping,424.94,expense,Food,DMart grocery shopping
+401,2,2025-07-05,Ajio order,1088.82,expense,Shopping,Ajio order
+402,2,2025-07-07,Bank service charge,180.25,expense,Other,Bank service charge
+403,2,2025-07-08,Amazon purchase - Bangalore,3699.13,expense,Shopping,Amazon purchase
+404,2,2025-07-09,BigBasket grocery order,1797.54,expense,Food,BigBasket grocery order
+405,2,2025-07-10,Barbeque Nation dinner,1038.29,expense,Food,Barbeque Nation dinner
+406,2,2025-07-11,Indian Oil petrol,423.7,expense,Transport,Indian Oil petrol
+407,2,2025-07-12,Netflix subscription,224.34,expense,Entertainment,Netflix subscription
+408,2,2025-07-15,Chai/tea stall,21.24,expense,Food,Chai/tea stall
+409,2,2025-07-16,LPG cylinder booking,1077.73,expense,Bills,LPG cylinder booking
+410,2,2025-07-17,Coaching institute fee,16087.08,expense,Education,Coaching institute fee
+411,2,2025-07-22,Courier/shipping charge,207.25,expense,Other,Courier/shipping charge
+412,2,2025-07-23,Apollo Pharmacy,534.16,expense,Health,Apollo Pharmacy
+413,2,2025-07-30,Ola cab,235.97,expense,Transport,Ola cab
+414,2,2025-07-31,Coaching institute fee,6706.95,expense,Education,Coaching institute fee
+415,2,2025-08-01,Myntra fashion order,618.76,expense,Shopping,Myntra fashion order
+416,2,2025-08-01,Amazon books order,895.67,expense,Education,Amazon books order
+417,2,2025-08-01,Amazon books order,882.69,expense,Education,Amazon books order
+418,2,2025-08-01,Jio mobile recharge,940.14,expense,Bills,Jio mobile recharge
+419,2,2025-08-01,Dr Lal PathLabs test,576.62,expense,Health,Dr Lal PathLabs test
+420,2,2025-08-03,LPG cylinder booking,935.2,expense,Bills,LPG cylinder booking
+421,2,2025-08-03,Salary credited,12004.37,income,Income,Employer/Institute
+422,2,2025-08-04,Barbeque Nation dinner,1662.36,expense,Food,Barbeque Nation dinner
+423,2,2025-08-06,Airtel postpaid bill,800.21,expense,Bills,Airtel postpaid bill
+424,2,2025-08-07,Spotify Premium,161.06,expense,Entertainment,Spotify Premium
+425,2,2025-08-10,Zomato order - MG Road,523.75,expense,Food,Zomato order
+426,2,2025-08-12,Chai/tea stall,10.92,expense,Food,Chai/tea stall
+427,2,2025-08-12,Udemy course purchase,3403.84,expense,Education,Udemy course purchase
+428,2,2025-08-12,Amazon purchase - app,4074.88,expense,Shopping,Amazon purchase
+429,2,2025-08-13,Tata Play DTH recharge,697.9,expense,Bills,Tata Play DTH recharge
+430,2,2025-08-13,Tata Play DTH recharge,618.71,expense,Bills,Tata Play DTH recharge
+431,2,2025-08-15,Tata Play DTH recharge,591.68,expense,Bills,Tata Play DTH recharge
+432,2,2025-08-16,Netflix subscription,536.89,expense,Entertainment,Netflix subscription
+433,2,2025-08-16,Barbeque Nation dinner,997.85,expense,Food,Barbeque Nation dinner
+434,2,2025-08-19,Flipkart order - Bangalore,3286.41,expense,Shopping,Flipkart order
+435,2,2025-08-21,Amusement park entry,1640.49,expense,Entertainment,Amusement park entry
+436,2,2025-08-21,Ola cab,432.21,expense,Transport,Ola cab
+437,2,2025-08-22,PVR Cinemas,857.41,expense,Entertainment,PVR Cinemas
+438,2,2025-08-24,Myntra fashion order,2798.03,expense,Shopping,Myntra fashion order
+439,2,2025-08-24,Health insurance premium,5765.35,expense,Health,Health insurance premium
+440,2,2025-08-25,Flipkart order - MG Road,4186.17,expense,Shopping,Flipkart order
+441,2,2025-08-27,Uber ride,323.72,expense,Transport,Uber ride
+442,2,2025-08-29,Starbucks Coffee,237.63,expense,Food,Starbucks Coffee
+443,2,2025-08-29,Netflix subscription,327.94,expense,Entertainment,Netflix subscription
+444,2,2025-08-29,ATM cash withdrawal,1022.33,expense,Other,ATM cash withdrawal
+445,2,2025-08-31,Courier/shipping charge,253.68,expense,Other,Courier/shipping charge
+446,2,2025-09-02,Gift purchase,2353.16,expense,Other,Gift purchase
+447,2,2025-09-03,ATM cash withdrawal,910.43,expense,Other,ATM cash withdrawal
+448,2,2025-09-03,Salary credited,12459.08,income,Income,Employer/Institute
+449,2,2025-09-04,Cafe Coffee Day,376.78,expense,Food,Cafe Coffee Day
+450,2,2025-09-09,Zomato order - campus,517.62,expense,Food,Zomato order
+451,2,2025-09-10,Swiggy order - wallet,338.69,expense,Food,Swiggy order
+452,2,2025-09-10,Courier/shipping charge,131.87,expense,Other,Courier/shipping charge
+453,2,2025-09-12,Airtel postpaid bill,899.69,expense,Bills,Airtel postpaid bill
+454,2,2025-09-14,Spotify Premium,139.28,expense,Entertainment,Spotify Premium
+455,2,2025-09-15,Amazon purchase - online,2003.7,expense,Shopping,Amazon purchase
+456,2,2025-09-15,Amazon purchase - hostel,3091.5,expense,Shopping,Amazon purchase
+457,2,2025-09-17,Parking fee,95.78,expense,Transport,Parking fee
+458,2,2025-09-19,Amazon purchase - weekend,4028.02,expense,Shopping,Amazon purchase
+459,2,2025-09-21,IRCTC train ticket,584.52,expense,Transport,IRCTC train ticket
+460,2,2025-09-25,Airtel postpaid bill,511.07,expense,Bills,Airtel postpaid bill
+461,2,2025-09-27,Society maintenance charge,1602.47,expense,Bills,Society maintenance charge
+462,2,2025-09-29,Amazon books order,518.29,expense,Education,Amazon books order
+463,2,2025-09-29,Parking fee,48.07,expense,Transport,Parking fee
+464,2,2025-10-01,Salary credited,12631.19,income,Income,Employer/Institute
+465,2,2025-10-03,Flipkart order - hostel,1488.7,expense,Shopping,Flipkart order
+466,2,2025-10-03,McDonalds,261.61,expense,Food,McDonalds
+467,2,2025-10-04,Dominos Pizza,341.71,expense,Food,Dominos Pizza
+468,2,2025-10-05,Society maintenance charge,2053.51,expense,Bills,Society maintenance charge
+469,2,2025-10-06,Gift purchase,437.18,expense,Other,Gift purchase
+470,2,2025-10-07,Stationery/printouts,107.03,expense,Education,Stationery/printouts
+471,2,2025-10-09,Hostel/room rent,10177.95,expense,Bills,Hostel/room rent
+472,2,2025-10-10,Uber ride,199.49,expense,Transport,Uber ride
+473,2,2025-10-10,Myntra fashion order,1937.38,expense,Shopping,Myntra fashion order
+474,2,2025-10-12,Zomato order - UPI,552.03,expense,Food,Zomato order
+475,2,2025-10-15,LPG cylinder booking,1096.66,expense,Bills,LPG cylinder booking
+476,2,2025-10-15,Local tiffin service,65.01,expense,Food,Local tiffin service
+477,2,2025-10-16,Dominos Pizza,357.31,expense,Food,Dominos Pizza
+478,2,2025-10-17,Dominos Pizza,594.58,expense,Food,Dominos Pizza
+479,2,2025-10-18,Metro card recharge,147.01,expense,Transport,Metro card recharge
+480,2,2025-10-20,Miscellaneous expense,259.95,expense,Other,Miscellaneous expense
+481,2,2025-10-20,Ajio order,2487.0,expense,Shopping,Ajio order
+482,2,2025-10-21,Indian Oil petrol,939.64,expense,Transport,Indian Oil petrol
+483,2,2025-10-22,Cafe Coffee Day,158.27,expense,Food,Cafe Coffee Day
+484,2,2025-10-22,Zomato order - UPI,413.86,expense,Food,Zomato order
+485,2,2025-10-24,Croma electronics,9170.77,expense,Shopping,Croma electronics
+486,2,2025-10-27,Indian Oil petrol,1549.62,expense,Transport,Indian Oil petrol
+487,2,2025-10-29,Dental clinic visit,1778.36,expense,Health,Dental clinic visit
+488,2,2025-10-29,McDonalds,322.03,expense,Food,McDonalds
+489,2,2025-11-01,Local mall shopping,3332.76,expense,Shopping,Local mall shopping
+490,2,2025-11-02,YouTube Premium,134.48,expense,Entertainment,YouTube Premium
+491,2,2025-11-03,Salary credited,11502.82,income,Income,Employer/Institute
+492,2,2025-11-06,Bus pass recharge,370.24,expense,Transport,Bus pass recharge
+493,2,2025-11-06,ACT Fibernet broadband bill,1307.0,expense,Bills,ACT Fibernet broadband bill
+494,2,2025-11-07,Local tiffin service,119.4,expense,Food,Local tiffin service
+495,2,2025-11-07,BookMyShow movie ticket,572.84,expense,Entertainment,BookMyShow movie ticket
+496,2,2025-11-07,Netflix subscription,372.75,expense,Entertainment,Netflix subscription
+497,2,2025-11-07,Society maintenance charge,2931.91,expense,Bills,Society maintenance charge
+498,2,2025-11-08,Cafe Coffee Day,374.45,expense,Food,Cafe Coffee Day
+499,2,2025-11-08,Zomato order - UPI,429.72,expense,Food,Zomato order
+500,2,2025-11-09,BESCOM electricity bill,1733.38,expense,Bills,BESCOM electricity bill
+501,2,2025-11-11,Bank service charge,198.74,expense,Other,Bank service charge
+502,2,2025-11-12,Society maintenance charge,2745.14,expense,Bills,Society maintenance charge
+503,2,2025-11-17,Society maintenance charge,2156.44,expense,Bills,Society maintenance charge
+504,2,2025-11-18,Jio mobile recharge,207.96,expense,Bills,Jio mobile recharge
+505,2,2025-11-18,ACT Fibernet broadband bill,1481.08,expense,Bills,ACT Fibernet broadband bill
+506,2,2025-11-20,Zomato order - app,158.7,expense,Food,Zomato order
+507,2,2025-11-22,Doctor consultation fee,1165.07,expense,Health,Doctor consultation fee
+508,2,2025-11-24,Gift purchase,1677.56,expense,Other,Gift purchase
+509,2,2025-11-26,Decathlon sports gear,2273.83,expense,Shopping,Decathlon sports gear
+510,2,2025-11-26,Croma electronics,2087.36,expense,Shopping,Croma electronics
+511,2,2025-11-27,Cafe Coffee Day,173.18,expense,Food,Cafe Coffee Day
+512,2,2025-11-27,YouTube Premium,166.21,expense,Entertainment,YouTube Premium
+513,2,2025-11-27,Apollo Pharmacy,641.48,expense,Health,Apollo Pharmacy
+514,2,2025-11-28,McDonalds,389.49,expense,Food,McDonalds
+515,2,2025-11-28,Coursera subscription,3250.84,expense,Education,Coursera subscription
+516,2,2025-11-29,Hostel/room rent,6325.83,expense,Bills,Hostel/room rent
+517,2,2025-11-30,Cafe Coffee Day,325.15,expense,Food,Cafe Coffee Day
+518,2,2025-12-01,Salary credited,12270.42,income,Income,Employer/Institute
+519,2,2025-12-02,PVR Cinemas,262.23,expense,Entertainment,PVR Cinemas
+520,2,2025-12-02,Freelance project payment,16495.24,income,Income,Freelance project payment
+521,2,2025-12-03,Apollo Pharmacy,590.77,expense,Health,Apollo Pharmacy
+522,2,2025-12-03,Cashback/refund credited,560.98,income,Income,Cashback/refund credited
+523,2,2025-12-04,Health insurance premium,2938.62,expense,Health,Health insurance premium
+524,2,2025-12-04,YouTube Premium,140.75,expense,Entertainment,YouTube Premium
+525,2,2025-12-04,YouTube Premium,176.49,expense,Entertainment,YouTube Premium
+526,2,2025-12-05,Tata Play DTH recharge,651.24,expense,Bills,Tata Play DTH recharge
+527,2,2025-12-06,Savings account interest credited,61.87,income,Income,Savings account interest credited
+528,2,2025-12-09,DMart grocery shopping,457.01,expense,Food,DMart grocery shopping
+529,2,2025-12-11,BESCOM electricity bill,1238.08,expense,Bills,BESCOM electricity bill
+530,2,2025-12-12,Campus mess bill,2954.28,expense,Food,Campus mess bill
+531,2,2025-12-12,Stationery/printouts,91.36,expense,Education,Stationery/printouts
+532,2,2025-12-14,Starbucks Coffee,487.82,expense,Food,Starbucks Coffee
+533,2,2025-12-14,Myntra fashion order,2831.95,expense,Shopping,Myntra fashion order
+534,2,2025-12-18,Cafe Coffee Day,281.11,expense,Food,Cafe Coffee Day
+535,2,2025-12-18,Parking fee,56.66,expense,Transport,Parking fee
+536,2,2025-12-18,Dr Lal PathLabs test,1438.28,expense,Health,Dr Lal PathLabs test
+537,2,2025-12-25,BigBasket grocery order,1852.3,expense,Food,BigBasket grocery order
+538,2,2025-12-26,Ajio order,670.87,expense,Shopping,Ajio order
+539,2,2025-12-27,DMart grocery shopping,1789.8,expense,Food,DMart grocery shopping
+540,2,2025-12-28,IndiGo flight booking,6189.48,expense,Transport,IndiGo flight booking
+541,2,2025-12-30,Decathlon sports gear,1873.13,expense,Shopping,Decathlon sports gear
+542,2,2025-12-31,LPG cylinder booking,1071.93,expense,Bills,LPG cylinder booking
+543,3,2025-01-03,Dominos Pizza,804.1,expense,Food,Dominos Pizza
+544,3,2025-01-04,Auto fare,111.58,expense,Transport,Auto fare
+545,3,2025-01-04,Salary credited,43282.01,income,Income,Employer/Institute
+546,3,2025-01-08,Rapido bike taxi,122.24,expense,Transport,Rapido bike taxi
+547,3,2025-01-10,Amazon purchase - MG Road,1934.38,expense,Shopping,Amazon purchase
+548,3,2025-01-12,Coaching institute fee,8057.18,expense,Education,Coaching institute fee
+549,3,2025-01-14,BigBasket grocery order,1066.85,expense,Food,BigBasket grocery order
+550,3,2025-01-16,Local mall shopping,2876.86,expense,Shopping,Local mall shopping
+551,3,2025-01-18,Society maintenance charge,1701.46,expense,Bills,Society maintenance charge
+552,3,2025-01-19,PVR Cinemas,668.3,expense,Entertainment,PVR Cinemas
+553,3,2025-01-19,Coursera subscription,2568.2,expense,Education,Coursera subscription
+554,3,2025-01-20,Health insurance premium,2338.25,expense,Health,Health insurance premium
+555,3,2025-01-20,Doctor consultation fee,796.72,expense,Health,Doctor consultation fee
+556,3,2025-01-20,YouTube Premium,177.87,expense,Entertainment,YouTube Premium
+557,3,2025-01-22,Parking fee,46.2,expense,Transport,Parking fee
+558,3,2025-01-23,BigBasket grocery order,1026.86,expense,Food,BigBasket grocery order
+559,3,2025-01-24,Spotify Premium,150.47,expense,Entertainment,Spotify Premium
+560,3,2025-01-26,Ola cab,312.6,expense,Transport,Ola cab
+561,3,2025-01-27,McDonalds,372.34,expense,Food,McDonalds
+562,3,2025-01-29,Ajio order,1500.79,expense,Shopping,Ajio order
+563,3,2025-01-31,Local mall shopping,2379.87,expense,Shopping,Local mall shopping
+564,3,2025-02-01,Library fine/fee,63.76,expense,Education,Library fine/fee
+565,3,2025-02-01,Airtel postpaid bill,901.17,expense,Bills,Airtel postpaid bill
+566,3,2025-02-02,Jio mobile recharge,936.6,expense,Bills,Jio mobile recharge
+567,3,2025-02-03,Water bill payment,316.01,expense,Bills,Water bill payment
+568,3,2025-02-04,Spotify Premium,166.02,expense,Entertainment,Spotify Premium
+569,3,2025-02-05,Salary credited,45356.07,income,Income,Employer/Institute
+570,3,2025-02-08,BESCOM electricity bill,710.18,expense,Bills,BESCOM electricity bill
+571,3,2025-02-10,Barbeque Nation dinner,2312.05,expense,Food,Barbeque Nation dinner
+572,3,2025-02-11,Apollo Pharmacy,178.2,expense,Health,Apollo Pharmacy
+573,3,2025-02-11,YouTube Premium,173.64,expense,Entertainment,YouTube Premium
+574,3,2025-02-12,Cult.fit gym membership,2235.26,expense,Health,Cult.fit gym membership
+575,3,2025-02-14,Coaching institute fee,23417.45,expense,Education,Coaching institute fee
+576,3,2025-02-15,Uber ride,140.55,expense,Transport,Uber ride
+577,3,2025-02-17,LPG cylinder booking,945.22,expense,Bills,LPG cylinder booking
+578,3,2025-02-22,ACT Fibernet broadband bill,1247.61,expense,Bills,ACT Fibernet broadband bill
+579,3,2025-02-26,Barbeque Nation dinner,1162.42,expense,Food,Barbeque Nation dinner
+580,3,2025-02-27,Parking fee,65.59,expense,Transport,Parking fee
+581,3,2025-02-28,Airtel postpaid bill,801.73,expense,Bills,Airtel postpaid bill
+582,3,2025-03-01,Salary credited,45402.58,income,Income,Employer/Institute
+583,3,2025-03-02,Croma electronics,1549.41,expense,Shopping,Croma electronics
+584,3,2025-03-07,ACT Fibernet broadband bill,1214.89,expense,Bills,ACT Fibernet broadband bill
+585,3,2025-03-07,Water bill payment,586.26,expense,Bills,Water bill payment
+586,3,2025-03-08,Croma electronics,9655.19,expense,Shopping,Croma electronics
+587,3,2025-03-10,Spotify Premium,156.33,expense,Entertainment,Spotify Premium
+588,3,2025-03-10,Zomato order - campus,638.06,expense,Food,Zomato order
+589,3,2025-03-12,Health insurance premium,7724.31,expense,Health,Health insurance premium
+590,3,2025-03-12,Amazon purchase - monthly,1086.44,expense,Shopping,Amazon purchase
+591,3,2025-03-12,Amazon purchase - Bangalore,3074.83,expense,Shopping,Amazon purchase
+592,3,2025-03-13,McDonalds,212.8,expense,Food,McDonalds
+593,3,2025-03-15,Library fine/fee,53.53,expense,Education,Library fine/fee
+594,3,2025-03-18,DMart grocery shopping,1621.31,expense,Food,DMart grocery shopping
+595,3,2025-03-20,Health insurance premium,5192.68,expense,Health,Health insurance premium
+596,3,2025-03-20,Chai/tea stall,19.66,expense,Food,Chai/tea stall
+597,3,2025-03-20,Charity donation,1798.4,expense,Other,Charity donation
+598,3,2025-03-21,Dominos Pizza,547.89,expense,Food,Dominos Pizza
+599,3,2025-03-22,Tata Play DTH recharge,703.1,expense,Bills,Tata Play DTH recharge
+600,3,2025-03-23,Ajio order,2569.65,expense,Shopping,Ajio order
+601,3,2025-03-24,Decathlon sports gear,622.03,expense,Shopping,Decathlon sports gear
+602,3,2025-03-26,Health insurance premium,7998.31,expense,Health,Health insurance premium
+603,3,2025-03-30,Zomato order - hostel,624.15,expense,Food,Zomato order
+604,3,2025-03-31,Airtel postpaid bill,584.77,expense,Bills,Airtel postpaid bill
+605,3,2025-04-03,Rapido bike taxi,129.42,expense,Transport,Rapido bike taxi
+606,3,2025-04-03,Chai/tea stall,14.16,expense,Food,Chai/tea stall
+607,3,2025-04-03,Family transfer received,2147.4,income,Income,Family transfer received
+608,3,2025-04-05,Salary credited,45180.23,income,Income,Employer/Institute
+609,3,2025-04-06,IRCTC train ticket,1164.37,expense,Transport,IRCTC train ticket
+610,3,2025-04-08,Amazon purchase - express,2317.75,expense,Shopping,Amazon purchase
+611,3,2025-04-09,Coaching institute fee,14373.86,expense,Education,Coaching institute fee
+612,3,2025-04-11,Cult.fit gym membership,1483.94,expense,Health,Cult.fit gym membership
+613,3,2025-04-13,Uber ride,175.55,expense,Transport,Uber ride
+614,3,2025-04-13,PVR Cinemas,319.5,expense,Entertainment,PVR Cinemas
+615,3,2025-04-17,Steam game purchase,527.5,expense,Entertainment,Steam game purchase
+616,3,2025-04-20,IndiGo flight booking,3121.49,expense,Transport,IndiGo flight booking
+617,3,2025-04-23,Auto fare,78.01,expense,Transport,Auto fare
+618,3,2025-04-25,Zomato order - UPI,412.1,expense,Food,Zomato order
+619,3,2025-04-30,Society maintenance charge,2584.18,expense,Bills,Society maintenance charge
+620,3,2025-05-03,Zomato order - Bangalore,472.19,expense,Food,Zomato order
+621,3,2025-05-04,Amazon purchase - UPI,1760.62,expense,Shopping,Amazon purchase
+622,3,2025-05-05,Cafe Coffee Day,283.68,expense,Food,Cafe Coffee Day
+623,3,2025-05-05,Salary credited,43087.76,income,Income,Employer/Institute
+624,3,2025-05-10,ACT Fibernet broadband bill,1158.79,expense,Bills,ACT Fibernet broadband bill
+625,3,2025-05-14,BESCOM electricity bill,2091.7,expense,Bills,BESCOM electricity bill
+626,3,2025-05-19,DMart grocery shopping,1409.76,expense,Food,DMart grocery shopping
+627,3,2025-05-20,Stationery/printouts,378.42,expense,Education,Stationery/printouts
+628,3,2025-05-21,Hostel/room rent,11340.46,expense,Bills,Hostel/room rent
+629,3,2025-05-21,LPG cylinder booking,917.31,expense,Bills,LPG cylinder booking
+630,3,2025-05-25,Uber ride,149.03,expense,Transport,Uber ride
+631,3,2025-05-26,Exam registration fee,1565.23,expense,Education,Exam registration fee
+632,3,2025-05-27,Croma electronics,9790.23,expense,Shopping,Croma electronics
+633,3,2025-05-27,Monthly stipend credited,13464.52,income,Income,Monthly stipend credited
+634,3,2025-05-28,Ajio order,2048.81,expense,Shopping,Ajio order
+635,3,2025-05-28,DMart grocery shopping,1774.45,expense,Food,DMart grocery shopping
+636,3,2025-05-28,Indian Oil petrol,1458.55,expense,Transport,Indian Oil petrol
+637,3,2025-05-28,Tata Play DTH recharge,535.79,expense,Bills,Tata Play DTH recharge
+638,3,2025-05-29,Miscellaneous expense,747.15,expense,Other,Miscellaneous expense
+639,3,2025-05-29,Barbeque Nation dinner,2391.24,expense,Food,Barbeque Nation dinner
+640,3,2025-05-30,Rapido bike taxi,41.6,expense,Transport,Rapido bike taxi
+641,3,2025-06-01,Cafe Coffee Day,191.83,expense,Food,Cafe Coffee Day
+642,3,2025-06-01,YouTube Premium,159.16,expense,Entertainment,YouTube Premium
+643,3,2025-06-01,Amusement park entry,1344.09,expense,Entertainment,Amusement park entry
+644,3,2025-06-02,IRCTC train ticket,384.73,expense,Transport,IRCTC train ticket
+645,3,2025-06-02,Udemy course purchase,1615.58,expense,Education,Udemy course purchase
+646,3,2025-06-03,Chai/tea stall,18.4,expense,Food,Chai/tea stall
+647,3,2025-06-04,Spotify Premium,126.01,expense,Entertainment,Spotify Premium
+648,3,2025-06-04,Salary credited,46685.69,income,Income,Employer/Institute
+649,3,2025-06-07,Society maintenance charge,1802.83,expense,Bills,Society maintenance charge
+650,3,2025-06-08,BookMyShow movie ticket,288.3,expense,Entertainment,BookMyShow movie ticket
+651,3,2025-06-08,Metro card recharge,436.85,expense,Transport,Metro card recharge
+652,3,2025-06-08,Amazon books order,658.59,expense,Education,Amazon books order
+653,3,2025-06-09,Stationery/printouts,327.91,expense,Education,Stationery/printouts
+654,3,2025-06-10,Decathlon sports gear,1210.04,expense,Shopping,Decathlon sports gear
+655,3,2025-06-10,Health insurance premium,5634.65,expense,Health,Health insurance premium
+656,3,2025-06-10,BigBasket grocery order,1266.05,expense,Food,BigBasket grocery order
+657,3,2025-06-13,Barbeque Nation dinner,1633.82,expense,Food,Barbeque Nation dinner
+658,3,2025-06-13,Chai/tea stall,27.15,expense,Food,Chai/tea stall
+659,3,2025-06-14,Tata Play DTH recharge,400.81,expense,Bills,Tata Play DTH recharge
+660,3,2025-06-15,Rapido bike taxi,51.79,expense,Transport,Rapido bike taxi
+661,3,2025-06-19,Cult.fit gym membership,1646.36,expense,Health,Cult.fit gym membership
+662,3,2025-06-19,Ola cab,270.45,expense,Transport,Ola cab
+663,3,2025-06-21,Zomato order - express,611.31,expense,Food,Zomato order
+664,3,2025-06-21,Water bill payment,517.47,expense,Bills,Water bill payment
+665,3,2025-06-23,DMart grocery shopping,1600.43,expense,Food,DMart grocery shopping
+666,3,2025-06-23,Coaching institute fee,6517.27,expense,Education,Coaching institute fee
+667,3,2025-06-24,McDonalds,401.5,expense,Food,McDonalds
+668,3,2025-06-26,YouTube Premium,136.65,expense,Entertainment,YouTube Premium
+669,3,2025-06-26,IRCTC train ticket,790.75,expense,Transport,IRCTC train ticket
+670,3,2025-06-27,Coursera subscription,2341.24,expense,Education,Coursera subscription
+671,3,2025-06-28,Decathlon sports gear,1788.69,expense,Shopping,Decathlon sports gear
+672,3,2025-06-29,BigBasket grocery order,2014.22,expense,Food,BigBasket grocery order
+673,3,2025-06-30,Croma electronics,5907.58,expense,Shopping,Croma electronics
+674,3,2025-06-30,Local mall shopping,2158.87,expense,Shopping,Local mall shopping
+675,3,2025-07-03,Salary credited,46981.19,income,Income,Employer/Institute
+676,3,2025-07-06,Hostel/room rent,7538.31,expense,Bills,Hostel/room rent
+677,3,2025-07-07,Stationery/printouts,78.08,expense,Education,Stationery/printouts
+678,3,2025-07-08,Coursera subscription,3547.94,expense,Education,Coursera subscription
+679,3,2025-07-08,Ola cab,337.03,expense,Transport,Ola cab
+680,3,2025-07-08,Parking fee,58.76,expense,Transport,Parking fee
+681,3,2025-07-09,Miscellaneous expense,262.83,expense,Other,Miscellaneous expense
+682,3,2025-07-10,Myntra fashion order,1689.64,expense,Shopping,Myntra fashion order
+683,3,2025-07-11,DMart grocery shopping,1469.86,expense,Food,DMart grocery shopping
+684,3,2025-07-11,Charity donation,1744.46,expense,Other,Charity donation
+685,3,2025-07-11,Croma electronics,12040.15,expense,Shopping,Croma electronics
+686,3,2025-07-14,YouTube Premium,146.32,expense,Entertainment,YouTube Premium
+687,3,2025-07-15,YouTube Premium,156.03,expense,Entertainment,YouTube Premium
+688,3,2025-07-25,DMart grocery shopping,597.79,expense,Food,DMart grocery shopping
+689,3,2025-07-28,Miscellaneous expense,154.83,expense,Other,Miscellaneous expense
+690,3,2025-07-30,BookMyShow movie ticket,897.58,expense,Entertainment,BookMyShow movie ticket
+691,3,2025-08-01,Udemy course purchase,2011.95,expense,Education,Udemy course purchase
+692,3,2025-08-02,Coursera subscription,2994.59,expense,Education,Coursera subscription
+693,3,2025-08-04,Salary credited,44238.57,income,Income,Employer/Institute
+694,3,2025-08-06,Ola cab,149.24,expense,Transport,Ola cab
+695,3,2025-08-07,Parking fee,47.65,expense,Transport,Parking fee
+696,3,2025-08-07,Hostel/room rent,13196.6,expense,Bills,Hostel/room rent
+697,3,2025-08-10,Jio mobile recharge,909.93,expense,Bills,Jio mobile recharge
+698,3,2025-08-12,Coursera subscription,1339.67,expense,Education,Coursera subscription
+699,3,2025-08-14,Decathlon sports gear,899.6,expense,Shopping,Decathlon sports gear
+700,3,2025-08-15,DMart grocery shopping,846.02,expense,Food,DMart grocery shopping
+701,3,2025-08-16,Auto fare,79.99,expense,Transport,Auto fare
+702,3,2025-08-17,Auto fare,86.18,expense,Transport,Auto fare
+703,3,2025-08-19,Spotify Premium,140.49,expense,Entertainment,Spotify Premium
+704,3,2025-08-19,McDonalds,351.47,expense,Food,McDonalds
+705,3,2025-08-19,Myntra fashion order,2208.21,expense,Shopping,Myntra fashion order
+706,3,2025-08-19,DMart grocery shopping,512.46,expense,Food,DMart grocery shopping
+707,3,2025-08-24,Rapido bike taxi,148.9,expense,Transport,Rapido bike taxi
+708,3,2025-08-25,Society maintenance charge,1645.23,expense,Bills,Society maintenance charge
+709,3,2025-08-28,Flipkart order - weekend,2115.87,expense,Shopping,Flipkart order
+710,3,2025-08-29,Tata Play DTH recharge,772.38,expense,Bills,Tata Play DTH recharge
+711,3,2025-08-29,Dental clinic visit,2691.63,expense,Health,Dental clinic visit
+712,3,2025-08-30,Campus mess bill,2476.6,expense,Food,Campus mess bill
+713,3,2025-08-30,Croma electronics,3122.6,expense,Shopping,Croma electronics
+714,3,2025-08-30,Monthly stipend credited,6106.32,income,Income,Monthly stipend credited
+715,3,2025-08-31,YouTube Premium,184.76,expense,Entertainment,YouTube Premium
+716,3,2025-09-01,Tata Play DTH recharge,393.52,expense,Bills,Tata Play DTH recharge
+717,3,2025-09-01,Salary credited,47112.96,income,Income,Employer/Institute
+718,3,2025-09-02,Society maintenance charge,2631.48,expense,Bills,Society maintenance charge
+719,3,2025-09-02,Dominos Pizza,625.13,expense,Food,Dominos Pizza
+720,3,2025-09-03,Local mall shopping,1014.76,expense,Shopping,Local mall shopping
+721,3,2025-09-05,Indian Oil petrol,1147.35,expense,Transport,Indian Oil petrol
+722,3,2025-09-05,Local tiffin service,95.21,expense,Food,Local tiffin service
+723,3,2025-09-11,Charity donation,781.78,expense,Other,Charity donation
+724,3,2025-09-13,Dominos Pizza,713.24,expense,Food,Dominos Pizza
+725,3,2025-09-13,Dominos Pizza,441.34,expense,Food,Dominos Pizza
+726,3,2025-09-13,Charity donation,293.39,expense,Other,Charity donation
+727,3,2025-09-15,Cafe Coffee Day,182.03,expense,Food,Cafe Coffee Day
+728,3,2025-09-16,Local tiffin service,74.76,expense,Food,Local tiffin service
+729,3,2025-09-16,DMart grocery shopping,1455.57,expense,Food,DMart grocery shopping
+730,3,2025-09-18,Hostel/room rent,13759.32,expense,Bills,Hostel/room rent
+731,3,2025-09-18,Campus mess bill,1813.69,expense,Food,Campus mess bill
+732,3,2025-09-18,LPG cylinder booking,1042.37,expense,Bills,LPG cylinder booking
+733,3,2025-09-21,Flipkart order - monthly,3005.98,expense,Shopping,Flipkart order
+734,3,2025-09-22,Stationery/printouts,285.1,expense,Education,Stationery/printouts
+735,3,2025-09-23,Ajio order,637.23,expense,Shopping,Ajio order
+736,3,2025-09-26,Water bill payment,326.51,expense,Bills,Water bill payment
+737,3,2025-09-26,Bus pass recharge,563.48,expense,Transport,Bus pass recharge
+738,3,2025-09-27,ATM cash withdrawal,2468.64,expense,Other,ATM cash withdrawal
+739,3,2025-09-27,IndiGo flight booking,4812.67,expense,Transport,IndiGo flight booking
+740,3,2025-09-27,Society maintenance charge,1314.07,expense,Bills,Society maintenance charge
+741,3,2025-09-28,Exam registration fee,557.57,expense,Education,Exam registration fee
+742,3,2025-09-29,Swiggy order - express,155.24,expense,Food,Swiggy order
+743,3,2025-10-01,Airtel postpaid bill,530.41,expense,Bills,Airtel postpaid bill
+744,3,2025-10-02,Tata Play DTH recharge,386.69,expense,Bills,Tata Play DTH recharge
+745,3,2025-10-04,Zomato order - weekend,264.04,expense,Food,Zomato order
+746,3,2025-10-05,Salary credited,43177.22,income,Income,Employer/Institute
+747,3,2025-10-06,Ajio order,2555.05,expense,Shopping,Ajio order
+748,3,2025-10-06,Cafe Coffee Day,244.72,expense,Food,Cafe Coffee Day
+749,3,2025-10-07,Local mall shopping,3262.1,expense,Shopping,Local mall shopping
+750,3,2025-10-07,Amazon books order,521.68,expense,Education,Amazon books order
+751,3,2025-10-08,Rapido bike taxi,54.74,expense,Transport,Rapido bike taxi
+752,3,2025-10-09,Ola cab,197.98,expense,Transport,Ola cab
+753,3,2025-10-11,Myntra fashion order,1039.43,expense,Shopping,Myntra fashion order
+754,3,2025-10-11,LPG cylinder booking,1076.04,expense,Bills,LPG cylinder booking
+755,3,2025-10-13,Cult.fit gym membership,2633.14,expense,Health,Cult.fit gym membership
+756,3,2025-10-13,Flipkart order - wallet,1510.47,expense,Shopping,Flipkart order
+757,3,2025-10-15,Croma electronics,6744.97,expense,Shopping,Croma electronics
+758,3,2025-10-18,IRCTC train ticket,387.49,expense,Transport,IRCTC train ticket
+759,3,2025-10-20,Auto fare,83.42,expense,Transport,Auto fare
+760,3,2025-10-22,LPG cylinder booking,884.09,expense,Bills,LPG cylinder booking
+761,3,2025-10-22,Decathlon sports gear,2168.42,expense,Shopping,Decathlon sports gear
+762,3,2025-10-23,Cafe Coffee Day,354.82,expense,Food,Cafe Coffee Day
+763,3,2025-10-24,Local mall shopping,1348.43,expense,Shopping,Local mall shopping
+764,3,2025-10-25,Ola cab,244.65,expense,Transport,Ola cab
+765,3,2025-10-26,Flipkart order - app,1045.37,expense,Shopping,Flipkart order
+766,3,2025-10-26,Hostel/room rent,9403.49,expense,Bills,Hostel/room rent
+767,3,2025-10-26,BESCOM electricity bill,606.71,expense,Bills,BESCOM electricity bill
+768,3,2025-10-26,McDonalds,396.38,expense,Food,McDonalds
+769,3,2025-10-28,Chai/tea stall,15.44,expense,Food,Chai/tea stall
+770,3,2025-11-01,Jio mobile recharge,988.18,expense,Bills,Jio mobile recharge
+771,3,2025-11-02,Jio mobile recharge,884.01,expense,Bills,Jio mobile recharge
+772,3,2025-11-02,Amazon purchase - hostel,1114.96,expense,Shopping,Amazon purchase
+773,3,2025-11-02,Uber ride,267.82,expense,Transport,Uber ride
+774,3,2025-11-04,Salary credited,44765.49,income,Income,Employer/Institute
+775,3,2025-11-06,Chai/tea stall,16.34,expense,Food,Chai/tea stall
+776,3,2025-11-07,Myntra fashion order,2486.98,expense,Shopping,Myntra fashion order
+777,3,2025-11-08,Swiggy order - online,209.54,expense,Food,Swiggy order
+778,3,2025-11-09,Indian Oil petrol,1676.79,expense,Transport,Indian Oil petrol
+779,3,2025-11-10,DMart grocery shopping,425.14,expense,Food,DMart grocery shopping
+780,3,2025-11-11,Starbucks Coffee,308.28,expense,Food,Starbucks Coffee
+781,3,2025-11-12,IRCTC train ticket,801.95,expense,Transport,IRCTC train ticket
+782,3,2025-11-15,Ajio order,1933.88,expense,Shopping,Ajio order
+783,3,2025-11-16,Spotify Premium,142.87,expense,Entertainment,Spotify Premium
+784,3,2025-11-19,Croma electronics,9548.29,expense,Shopping,Croma electronics
+785,3,2025-11-23,Amusement park entry,1497.91,expense,Entertainment,Amusement park entry
+786,3,2025-11-24,Flipkart order - weekend,3781.08,expense,Shopping,Flipkart order
+787,3,2025-11-25,Udemy course purchase,2278.14,expense,Education,Udemy course purchase
+788,3,2025-11-25,Campus mess bill,1562.36,expense,Food,Campus mess bill
+789,3,2025-11-25,LPG cylinder booking,855.02,expense,Bills,LPG cylinder booking
+790,3,2025-11-25,Scholarship credited,21918.62,income,Income,Scholarship credited
+791,3,2025-11-27,McDonalds,203.1,expense,Food,McDonalds
+792,3,2025-11-28,BigBasket grocery order,942.48,expense,Food,BigBasket grocery order
+793,3,2025-12-01,Ajio order,990.75,expense,Shopping,Ajio order
+794,3,2025-12-01,Salary credited,45915.81,income,Income,Employer/Institute
+795,3,2025-12-02,Uber ride,201.64,expense,Transport,Uber ride
+796,3,2025-12-02,IndiGo flight booking,7325.13,expense,Transport,IndiGo flight booking
+797,3,2025-12-07,YouTube Premium,147.7,expense,Entertainment,YouTube Premium
+798,3,2025-12-08,Cult.fit gym membership,1121.16,expense,Health,Cult.fit gym membership
+799,3,2025-12-09,Amazon purchase - campus,1850.12,expense,Shopping,Amazon purchase
+800,3,2025-12-14,Local mall shopping,643.04,expense,Shopping,Local mall shopping
+801,3,2025-12-14,Dominos Pizza,371.38,expense,Food,Dominos Pizza
+802,3,2025-12-15,BigBasket grocery order,854.39,expense,Food,BigBasket grocery order
+803,3,2025-12-15,Doctor consultation fee,523.64,expense,Health,Doctor consultation fee
+804,3,2025-12-17,Doctor consultation fee,1154.57,expense,Health,Doctor consultation fee
+805,3,2025-12-20,Decathlon sports gear,1631.01,expense,Shopping,Decathlon sports gear
+806,3,2025-12-21,Charity donation,344.87,expense,Other,Charity donation
+807,3,2025-12-23,IndiGo flight booking,5304.69,expense,Transport,IndiGo flight booking
+808,3,2025-12-27,Indian Oil petrol,1659.0,expense,Transport,Indian Oil petrol
+809,3,2025-12-27,Amusement park entry,1512.27,expense,Entertainment,Amusement park entry
+810,3,2025-12-27,Croma electronics,1468.49,expense,Shopping,Croma electronics
+811,4,2025-01-04,Flipkart order - wallet,4668.72,expense,Shopping,Flipkart order
+812,4,2025-01-05,ACT Fibernet broadband bill,1311.8,expense,Bills,ACT Fibernet broadband bill
+813,4,2025-01-05,Salary credited,29075.14,income,Income,Employer/Institute
+814,4,2025-01-09,Tata Play DTH recharge,333.54,expense,Bills,Tata Play DTH recharge
+815,4,2025-01-09,Society maintenance charge,1525.04,expense,Bills,Society maintenance charge
+816,4,2025-01-12,Swiggy order - MG Road,125.83,expense,Food,Swiggy order
+817,4,2025-01-14,LPG cylinder booking,1087.11,expense,Bills,LPG cylinder booking
+818,4,2025-01-16,Gift purchase,731.47,expense,Other,Gift purchase
+819,4,2025-01-17,Ola cab,444.3,expense,Transport,Ola cab
+820,4,2025-01-17,Courier/shipping charge,57.08,expense,Other,Courier/shipping charge
+821,4,2025-01-18,Zomato order - monthly,377.2,expense,Food,Zomato order
+822,4,2025-01-18,Bank service charge,172.61,expense,Other,Bank service charge
+823,4,2025-01-23,Coursera subscription,1459.05,expense,Education,Coursera subscription
+824,4,2025-01-23,Parking fee,31.15,expense,Transport,Parking fee
+825,4,2025-01-24,IRCTC train ticket,950.94,expense,Transport,IRCTC train ticket
+826,4,2025-01-27,Rapido bike taxi,141.68,expense,Transport,Rapido bike taxi
+827,4,2025-01-29,YouTube Premium,159.35,expense,Entertainment,YouTube Premium
+828,4,2025-01-31,Myntra fashion order,638.06,expense,Shopping,Myntra fashion order
+829,4,2025-02-01,Salary credited,26629.35,income,Income,Employer/Institute
+830,4,2025-02-02,Rapido bike taxi,62.87,expense,Transport,Rapido bike taxi
+831,4,2025-02-02,ACT Fibernet broadband bill,1141.6,expense,Bills,ACT Fibernet broadband bill
+832,4,2025-02-04,Doctor consultation fee,433.8,expense,Health,Doctor consultation fee
+833,4,2025-02-07,BESCOM electricity bill,1965.81,expense,Bills,BESCOM electricity bill
+834,4,2025-02-07,Auto fare,46.07,expense,Transport,Auto fare
+835,4,2025-02-10,Cafe Coffee Day,376.51,expense,Food,Cafe Coffee Day
+836,4,2025-02-10,IRCTC train ticket,545.57,expense,Transport,IRCTC train ticket
+837,4,2025-02-12,Dominos Pizza,613.63,expense,Food,Dominos Pizza
+838,4,2025-02-12,Tata Play DTH recharge,448.67,expense,Bills,Tata Play DTH recharge
+839,4,2025-02-13,Local tiffin service,94.59,expense,Food,Local tiffin service
+840,4,2025-02-14,Scholarship credited,16900.27,income,Income,Scholarship credited
+841,4,2025-02-17,Local mall shopping,3062.79,expense,Shopping,Local mall shopping
+842,4,2025-02-17,Barbeque Nation dinner,2343.63,expense,Food,Barbeque Nation dinner
+843,4,2025-02-17,Indian Oil petrol,1485.61,expense,Transport,Indian Oil petrol
+844,4,2025-02-18,Health insurance premium,4404.58,expense,Health,Health insurance premium
+845,4,2025-02-19,Flipkart order - MG Road,1289.03,expense,Shopping,Flipkart order
+846,4,2025-02-20,Coaching institute fee,11926.92,expense,Education,Coaching institute fee
+847,4,2025-02-20,BookMyShow movie ticket,846.18,expense,Entertainment,BookMyShow movie ticket
+848,4,2025-02-22,Indian Oil petrol,1527.85,expense,Transport,Indian Oil petrol
+849,4,2025-02-22,Hostel/room rent,11825.51,expense,Bills,Hostel/room rent
+850,4,2025-02-24,Charity donation,1970.36,expense,Other,Charity donation
+851,4,2025-02-25,Water bill payment,435.07,expense,Bills,Water bill payment
+852,4,2025-02-25,Dental clinic visit,842.21,expense,Health,Dental clinic visit
+853,4,2025-03-01,Starbucks Coffee,278.16,expense,Food,Starbucks Coffee
+854,4,2025-03-02,Campus mess bill,2724.06,expense,Food,Campus mess bill
+855,4,2025-03-02,Stationery/printouts,167.32,expense,Education,Stationery/printouts
+856,4,2025-03-03,Salary credited,29574.28,income,Income,Employer/Institute
+857,4,2025-03-11,Parking fee,40.75,expense,Transport,Parking fee
+858,4,2025-03-12,Swiggy order - campus,629.37,expense,Food,Swiggy order
+859,4,2025-03-13,Monthly stipend credited,6205.67,income,Income,Monthly stipend credited
+860,4,2025-03-14,Barbeque Nation dinner,1365.89,expense,Food,Barbeque Nation dinner
+861,4,2025-03-14,Barbeque Nation dinner,1504.64,expense,Food,Barbeque Nation dinner
+862,4,2025-03-16,Airtel postpaid bill,578.68,expense,Bills,Airtel postpaid bill
+863,4,2025-03-18,PVR Cinemas,765.71,expense,Entertainment,PVR Cinemas
+864,4,2025-03-19,LPG cylinder booking,1078.57,expense,Bills,LPG cylinder booking
+865,4,2025-03-19,Cashback/refund credited,500.77,income,Income,Cashback/refund credited
+866,4,2025-03-20,Amusement park entry,885.82,expense,Entertainment,Amusement park entry
+867,4,2025-03-21,Metro card recharge,172.64,expense,Transport,Metro card recharge
+868,4,2025-03-23,Croma electronics,13234.33,expense,Shopping,Croma electronics
+869,4,2025-03-25,Amazon books order,843.64,expense,Education,Amazon books order
+870,4,2025-03-26,Hostel/room rent,12395.33,expense,Bills,Hostel/room rent
+871,4,2025-03-27,Dr Lal PathLabs test,1649.66,expense,Health,Dr Lal PathLabs test
+872,4,2025-03-28,PVR Cinemas,558.03,expense,Entertainment,PVR Cinemas
+873,4,2025-03-28,Spotify Premium,153.84,expense,Entertainment,Spotify Premium
+874,4,2025-03-28,LPG cylinder booking,997.56,expense,Bills,LPG cylinder booking
+875,4,2025-03-30,Amusement park entry,1171.26,expense,Entertainment,Amusement park entry
+876,4,2025-03-31,Chai/tea stall,37.67,expense,Food,Chai/tea stall
+877,4,2025-04-01,Campus mess bill,2503.5,expense,Food,Campus mess bill
+878,4,2025-04-03,LPG cylinder booking,923.62,expense,Bills,LPG cylinder booking
+879,4,2025-04-04,Salary credited,29126.27,income,Income,Employer/Institute
+880,4,2025-04-06,DMart grocery shopping,1102.43,expense,Food,DMart grocery shopping
+881,4,2025-04-08,Barbeque Nation dinner,1111.93,expense,Food,Barbeque Nation dinner
+882,4,2025-04-11,Croma electronics,6899.37,expense,Shopping,Croma electronics
+883,4,2025-04-12,Amazon purchase - monthly,953.27,expense,Shopping,Amazon purchase
+884,4,2025-04-13,Chai/tea stall,23.08,expense,Food,Chai/tea stall
+885,4,2025-04-14,Decathlon sports gear,2588.64,expense,Shopping,Decathlon sports gear
+886,4,2025-04-15,Spotify Premium,163.25,expense,Entertainment,Spotify Premium
+887,4,2025-04-16,McDonalds,275.63,expense,Food,McDonalds
+888,4,2025-04-16,Airtel postpaid bill,954.76,expense,Bills,Airtel postpaid bill
+889,4,2025-04-17,Society maintenance charge,2264.3,expense,Bills,Society maintenance charge
+890,4,2025-04-19,ATM cash withdrawal,746.43,expense,Other,ATM cash withdrawal
+891,4,2025-04-20,Zomato order - Bangalore,384.53,expense,Food,Zomato order
+892,4,2025-04-20,Freelance project payment,7403.36,income,Income,Freelance project payment
+893,4,2025-04-22,Flipkart order - weekend,3151.84,expense,Shopping,Flipkart order
+894,4,2025-04-22,BookMyShow movie ticket,478.53,expense,Entertainment,BookMyShow movie ticket
+895,4,2025-04-22,Dr Lal PathLabs test,864.54,expense,Health,Dr Lal PathLabs test
+896,4,2025-04-24,Starbucks Coffee,358.73,expense,Food,Starbucks Coffee
+897,4,2025-04-25,Local mall shopping,2928.82,expense,Shopping,Local mall shopping
+898,4,2025-04-26,Ajio order,2006.74,expense,Shopping,Ajio order
+899,4,2025-04-26,Flipkart order - monthly,4517.11,expense,Shopping,Flipkart order
+900,4,2025-04-28,Decathlon sports gear,1163.59,expense,Shopping,Decathlon sports gear
+901,4,2025-04-28,Campus mess bill,1799.86,expense,Food,Campus mess bill
+902,4,2025-04-28,Udemy course purchase,2133.89,expense,Education,Udemy course purchase
+903,4,2025-04-29,Local tiffin service,99.54,expense,Food,Local tiffin service
+904,4,2025-04-30,Starbucks Coffee,387.89,expense,Food,Starbucks Coffee
+905,4,2025-05-02,Udemy course purchase,1162.85,expense,Education,Udemy course purchase
+906,4,2025-05-03,PVR Cinemas,533.47,expense,Entertainment,PVR Cinemas
+907,4,2025-05-04,BookMyShow movie ticket,468.61,expense,Entertainment,BookMyShow movie ticket
+908,4,2025-05-04,Salary credited,26857.82,income,Income,Employer/Institute
+909,4,2025-05-05,Jio mobile recharge,914.02,expense,Bills,Jio mobile recharge
+910,4,2025-05-07,Amusement park entry,1194.59,expense,Entertainment,Amusement park entry
+911,4,2025-05-07,Campus mess bill,2258.21,expense,Food,Campus mess bill
+912,4,2025-05-08,Dominos Pizza,869.14,expense,Food,Dominos Pizza
+913,4,2025-05-11,McDonalds,183.97,expense,Food,McDonalds
+914,4,2025-05-12,ACT Fibernet broadband bill,1092.25,expense,Bills,ACT Fibernet broadband bill
+915,4,2025-05-21,Starbucks Coffee,416.86,expense,Food,Starbucks Coffee
+916,4,2025-05-21,Amazon purchase - weekend,2759.75,expense,Shopping,Amazon purchase
+917,4,2025-05-23,Local mall shopping,3322.96,expense,Shopping,Local mall shopping
+918,4,2025-05-28,Society maintenance charge,2394.61,expense,Bills,Society maintenance charge
+919,4,2025-05-29,Indian Oil petrol,913.66,expense,Transport,Indian Oil petrol
+920,4,2025-05-30,Gift purchase,816.55,expense,Other,Gift purchase
+921,4,2025-05-30,Swiggy order - app,147.26,expense,Food,Swiggy order
+922,4,2025-06-01,Hostel/room rent,7126.86,expense,Bills,Hostel/room rent
+923,4,2025-06-02,Apollo Pharmacy,525.03,expense,Health,Apollo Pharmacy
+924,4,2025-06-03,Airtel postpaid bill,776.65,expense,Bills,Airtel postpaid bill
+925,4,2025-06-04,Doctor consultation fee,1138.91,expense,Health,Doctor consultation fee
+926,4,2025-06-04,Starbucks Coffee,209.07,expense,Food,Starbucks Coffee
+927,4,2025-06-04,Salary credited,26925.17,income,Income,Employer/Institute
+928,4,2025-06-05,Amazon books order,598.4,expense,Education,Amazon books order
+929,4,2025-06-05,Local mall shopping,2206.01,expense,Shopping,Local mall shopping
+930,4,2025-06-10,Local mall shopping,3083.12,expense,Shopping,Local mall shopping
+931,4,2025-06-10,Jio mobile recharge,479.9,expense,Bills,Jio mobile recharge
+932,4,2025-06-11,Jio mobile recharge,953.2,expense,Bills,Jio mobile recharge
+933,4,2025-06-13,LPG cylinder booking,994.07,expense,Bills,LPG cylinder booking
+934,4,2025-06-13,PVR Cinemas,425.46,expense,Entertainment,PVR Cinemas
+935,4,2025-06-16,Miscellaneous expense,357.06,expense,Other,Miscellaneous expense
+936,4,2025-06-19,Hostel/room rent,12679.44,expense,Bills,Hostel/room rent
+937,4,2025-06-22,Indian Oil petrol,1904.9,expense,Transport,Indian Oil petrol
+938,4,2025-06-27,Steam game purchase,1516.15,expense,Entertainment,Steam game purchase
+939,4,2025-06-29,Health insurance premium,3632.87,expense,Health,Health insurance premium
+940,4,2025-07-01,Ajio order,810.77,expense,Shopping,Ajio order
+941,4,2025-07-01,Amazon purchase - MG Road,1907.29,expense,Shopping,Amazon purchase
+942,4,2025-07-01,Salary credited,26975.65,income,Income,Employer/Institute
+943,4,2025-07-03,Local mall shopping,2380.88,expense,Shopping,Local mall shopping
+944,4,2025-07-04,Spotify Premium,124.97,expense,Entertainment,Spotify Premium
+945,4,2025-07-04,Ola cab,160.76,expense,Transport,Ola cab
+946,4,2025-07-06,IRCTC train ticket,1105.67,expense,Transport,IRCTC train ticket
+947,4,2025-07-07,DMart grocery shopping,504.57,expense,Food,DMart grocery shopping
+948,4,2025-07-09,Library fine/fee,129.06,expense,Education,Library fine/fee
+949,4,2025-07-11,Hostel/room rent,12378.36,expense,Bills,Hostel/room rent
+950,4,2025-07-12,Coaching institute fee,9585.03,expense,Education,Coaching institute fee
+951,4,2025-07-12,DMart grocery shopping,378.58,expense,Food,DMart grocery shopping
+952,4,2025-07-12,IRCTC train ticket,1603.07,expense,Transport,IRCTC train ticket
+953,4,2025-07-13,Local tiffin service,106.53,expense,Food,Local tiffin service
+954,4,2025-07-14,Tata Play DTH recharge,499.08,expense,Bills,Tata Play DTH recharge
+955,4,2025-07-14,Dominos Pizza,690.65,expense,Food,Dominos Pizza
+956,4,2025-07-14,Local mall shopping,545.51,expense,Shopping,Local mall shopping
+957,4,2025-07-16,Amazon books order,224.41,expense,Education,Amazon books order
+958,4,2025-07-16,Cashback/refund credited,423.85,income,Income,Cashback/refund credited
+959,4,2025-07-17,ACT Fibernet broadband bill,1266.66,expense,Bills,ACT Fibernet broadband bill
+960,4,2025-07-18,Local tiffin service,72.3,expense,Food,Local tiffin service
+961,4,2025-07-19,Decathlon sports gear,2585.94,expense,Shopping,Decathlon sports gear
+962,4,2025-07-21,DMart grocery shopping,1279.66,expense,Food,DMart grocery shopping
+963,4,2025-07-21,Amusement park entry,822.16,expense,Entertainment,Amusement park entry
+964,4,2025-07-23,Barbeque Nation dinner,1360.27,expense,Food,Barbeque Nation dinner
+965,4,2025-07-23,Steam game purchase,676.35,expense,Entertainment,Steam game purchase
+966,4,2025-07-29,Decathlon sports gear,376.99,expense,Shopping,Decathlon sports gear
+967,4,2025-07-30,Doctor consultation fee,1125.58,expense,Health,Doctor consultation fee
+968,4,2025-07-31,Exam registration fee,2351.14,expense,Education,Exam registration fee
+969,4,2025-08-03,Salary credited,29806.8,income,Income,Employer/Institute
+970,4,2025-08-04,Starbucks Coffee,189.02,expense,Food,Starbucks Coffee
+971,4,2025-08-05,Rapido bike taxi,138.4,expense,Transport,Rapido bike taxi
+972,4,2025-08-05,Local tiffin service,77.83,expense,Food,Local tiffin service
+973,4,2025-08-09,Dominos Pizza,812.42,expense,Food,Dominos Pizza
+974,4,2025-08-13,Ola cab,413.6,expense,Transport,Ola cab
+975,4,2025-08-13,Ola cab,259.58,expense,Transport,Ola cab
+976,4,2025-08-14,Metro card recharge,236.73,expense,Transport,Metro card recharge
+977,4,2025-08-14,BESCOM electricity bill,535.25,expense,Bills,BESCOM electricity bill
+978,4,2025-08-14,Dominos Pizza,639.77,expense,Food,Dominos Pizza
+979,4,2025-08-14,Scholarship credited,35336.48,income,Income,Scholarship credited
+980,4,2025-08-15,Cashback/refund credited,365.84,income,Income,Cashback/refund credited
+981,4,2025-08-16,Swiggy order - wallet,248.88,expense,Food,Swiggy order
+982,4,2025-08-17,Airtel postpaid bill,616.85,expense,Bills,Airtel postpaid bill
+983,4,2025-08-18,Charity donation,384.84,expense,Other,Charity donation
+984,4,2025-08-18,Apollo Pharmacy,735.88,expense,Health,Apollo Pharmacy
+985,4,2025-08-19,Campus mess bill,3092.61,expense,Food,Campus mess bill
+986,4,2025-08-19,Uber ride,334.71,expense,Transport,Uber ride
+987,4,2025-08-21,Spotify Premium,158.53,expense,Entertainment,Spotify Premium
+988,4,2025-08-22,Metro card recharge,321.67,expense,Transport,Metro card recharge
+989,4,2025-08-23,Auto fare,34.23,expense,Transport,Auto fare
+990,4,2025-08-23,Campus mess bill,2525.36,expense,Food,Campus mess bill
+991,4,2025-08-24,IRCTC train ticket,306.65,expense,Transport,IRCTC train ticket
+992,4,2025-08-25,IRCTC train ticket,1175.99,expense,Transport,IRCTC train ticket
+993,4,2025-08-26,Rapido bike taxi,142.78,expense,Transport,Rapido bike taxi
+994,4,2025-08-29,Dental clinic visit,1367.38,expense,Health,Dental clinic visit
+995,4,2025-09-02,Salary credited,27993.1,income,Income,Employer/Institute
+996,4,2025-09-03,YouTube Premium,177.17,expense,Entertainment,YouTube Premium
+997,4,2025-09-05,Uber ride,123.57,expense,Transport,Uber ride
+998,4,2025-09-05,Health insurance premium,5908.52,expense,Health,Health insurance premium
+999,4,2025-09-08,DMart grocery shopping,1266.78,expense,Food,DMart grocery shopping
+1000,4,2025-09-08,Cafe Coffee Day,188.25,expense,Food,Cafe Coffee Day
+1001,4,2025-09-09,Society maintenance charge,2409.41,expense,Bills,Society maintenance charge
+1002,4,2025-09-09,Amusement park entry,1348.98,expense,Entertainment,Amusement park entry
+1003,4,2025-09-11,YouTube Premium,149.05,expense,Entertainment,YouTube Premium
+1004,4,2025-09-11,Miscellaneous expense,790.75,expense,Other,Miscellaneous expense
+1005,4,2025-09-13,Auto fare,74.85,expense,Transport,Auto fare
+1006,4,2025-09-20,Metro card recharge,467.94,expense,Transport,Metro card recharge
+1007,4,2025-09-20,Croma electronics,12622.91,expense,Shopping,Croma electronics
+1008,4,2025-09-24,Stationery/printouts,247.8,expense,Education,Stationery/printouts
+1009,4,2025-09-29,Bank service charge,123.69,expense,Other,Bank service charge
+1010,4,2025-10-02,Salary credited,28935.34,income,Income,Employer/Institute
+1011,4,2025-10-03,Rapido bike taxi,86.65,expense,Transport,Rapido bike taxi
+1012,4,2025-10-03,Cafe Coffee Day,280.27,expense,Food,Cafe Coffee Day
+1013,4,2025-10-03,McDonalds,298.91,expense,Food,McDonalds
+1014,4,2025-10-04,Cafe Coffee Day,316.12,expense,Food,Cafe Coffee Day
+1015,4,2025-10-06,Local mall shopping,1381.3,expense,Shopping,Local mall shopping
+1016,4,2025-10-10,Amazon purchase - weekend,2358.94,expense,Shopping,Amazon purchase
+1017,4,2025-10-12,Hostel/room rent,11657.91,expense,Bills,Hostel/room rent
+1018,4,2025-10-13,Croma electronics,3402.68,expense,Shopping,Croma electronics
+1019,4,2025-10-14,Amusement park entry,951.78,expense,Entertainment,Amusement park entry
+1020,4,2025-10-15,Flipkart order - campus,1313.95,expense,Shopping,Flipkart order
+1021,4,2025-10-16,Exam registration fee,2223.57,expense,Education,Exam registration fee
+1022,4,2025-10-17,IndiGo flight booking,5484.21,expense,Transport,IndiGo flight booking
+1023,4,2025-10-17,Jio mobile recharge,182.51,expense,Bills,Jio mobile recharge
+1024,4,2025-10-18,Barbeque Nation dinner,1163.91,expense,Food,Barbeque Nation dinner
+1025,4,2025-10-20,Coursera subscription,3688.01,expense,Education,Coursera subscription
+1026,4,2025-10-21,Water bill payment,496.91,expense,Bills,Water bill payment
+1027,4,2025-10-22,Dental clinic visit,545.28,expense,Health,Dental clinic visit
+1028,4,2025-10-23,Ola cab,239.42,expense,Transport,Ola cab
+1029,4,2025-10-25,Gift purchase,1792.24,expense,Other,Gift purchase
+1030,4,2025-10-26,Charity donation,907.91,expense,Other,Charity donation
+1031,4,2025-10-27,DMart grocery shopping,1006.04,expense,Food,DMart grocery shopping
+1032,4,2025-10-27,Local mall shopping,864.38,expense,Shopping,Local mall shopping
+1033,4,2025-10-28,McDonalds,261.99,expense,Food,McDonalds
+1034,4,2025-10-28,Hostel/room rent,6662.39,expense,Bills,Hostel/room rent
+1035,4,2025-10-29,Barbeque Nation dinner,2292.47,expense,Food,Barbeque Nation dinner
+1036,4,2025-10-29,Monthly stipend credited,5769.53,income,Income,Monthly stipend credited
+1037,4,2025-11-01,Exam registration fee,1583.27,expense,Education,Exam registration fee
+1038,4,2025-11-02,Decathlon sports gear,2097.33,expense,Shopping,Decathlon sports gear
+1039,4,2025-11-02,Salary credited,26849.02,income,Income,Employer/Institute
+1040,4,2025-11-06,Stationery/printouts,51.62,expense,Education,Stationery/printouts
+1041,4,2025-11-06,Cult.fit gym membership,1053.19,expense,Health,Cult.fit gym membership
+1042,4,2025-11-11,Dr Lal PathLabs test,1625.12,expense,Health,Dr Lal PathLabs test
+1043,4,2025-11-11,Tata Play DTH recharge,422.67,expense,Bills,Tata Play DTH recharge
+1044,4,2025-11-12,Family transfer received,1333.07,income,Income,Family transfer received
+1045,4,2025-11-13,Water bill payment,509.96,expense,Bills,Water bill payment
+1046,4,2025-11-14,Flipkart order - app,4695.37,expense,Shopping,Flipkart order
+1047,4,2025-11-14,Amazon books order,1017.26,expense,Education,Amazon books order
+1048,4,2025-11-17,Auto fare,82.47,expense,Transport,Auto fare
+1049,4,2025-11-19,Local tiffin service,96.03,expense,Food,Local tiffin service
+1050,4,2025-11-20,Croma electronics,8586.16,expense,Shopping,Croma electronics
+1051,4,2025-11-22,PVR Cinemas,462.22,expense,Entertainment,PVR Cinemas
+1052,4,2025-11-23,BESCOM electricity bill,1215.92,expense,Bills,BESCOM electricity bill
+1053,4,2025-11-25,PVR Cinemas,1027.62,expense,Entertainment,PVR Cinemas
+1054,4,2025-11-25,DMart grocery shopping,368.99,expense,Food,DMart grocery shopping
+1055,4,2025-11-26,Myntra fashion order,826.26,expense,Shopping,Myntra fashion order
+1056,4,2025-11-27,Decathlon sports gear,1401.35,expense,Shopping,Decathlon sports gear
+1057,4,2025-11-29,Miscellaneous expense,75.46,expense,Other,Miscellaneous expense
+1058,4,2025-12-01,Water bill payment,404.18,expense,Bills,Water bill payment
+1059,4,2025-12-02,Amazon books order,335.96,expense,Education,Amazon books order
+1060,4,2025-12-02,PVR Cinemas,1052.63,expense,Entertainment,PVR Cinemas
+1061,4,2025-12-03,Cafe Coffee Day,302.96,expense,Food,Cafe Coffee Day
+1062,4,2025-12-04,Society maintenance charge,2994.37,expense,Bills,Society maintenance charge
+1063,4,2025-12-05,Salary credited,26630.85,income,Income,Employer/Institute
+1064,4,2025-12-07,Amusement park entry,909.47,expense,Entertainment,Amusement park entry
+1065,4,2025-12-09,Apollo Pharmacy,225.99,expense,Health,Apollo Pharmacy
+1066,4,2025-12-10,Chai/tea stall,25.57,expense,Food,Chai/tea stall
+1067,4,2025-12-11,Parking fee,89.77,expense,Transport,Parking fee
+1068,4,2025-12-11,Local tiffin service,115.25,expense,Food,Local tiffin service
+1069,4,2025-12-11,Local tiffin service,112.11,expense,Food,Local tiffin service
+1070,4,2025-12-12,Local mall shopping,3124.86,expense,Shopping,Local mall shopping
+1071,4,2025-12-13,Hostel/room rent,9269.87,expense,Bills,Hostel/room rent
+1072,4,2025-12-14,IndiGo flight booking,2591.95,expense,Transport,IndiGo flight booking
+1073,4,2025-12-14,LPG cylinder booking,872.9,expense,Bills,LPG cylinder booking
+1074,4,2025-12-16,Cult.fit gym membership,2410.15,expense,Health,Cult.fit gym membership
+1075,4,2025-12-17,Amazon purchase - MG Road,981.47,expense,Shopping,Amazon purchase
+1076,4,2025-12-19,Netflix subscription,269.27,expense,Entertainment,Netflix subscription
+1077,4,2025-12-21,Starbucks Coffee,227.64,expense,Food,Starbucks Coffee
+1078,4,2025-12-21,Croma electronics,1313.59,expense,Shopping,Croma electronics
+1079,4,2025-12-22,Parking fee,50.38,expense,Transport,Parking fee
+1080,4,2025-12-25,Myntra fashion order,3118.93,expense,Shopping,Myntra fashion order
+1081,4,2025-12-26,Amazon purchase - UPI,1354.58,expense,Shopping,Amazon purchase
+1082,4,2025-12-27,Local mall shopping,3815.49,expense,Shopping,Local mall shopping
+1083,4,2025-12-29,Charity donation,1550.85,expense,Other,Charity donation
+1084,4,2025-12-30,Hostel/room rent,8098.11,expense,Bills,Hostel/room rent
+1085,5,2025-01-01,Dental clinic visit,2052.29,expense,Health,Dental clinic visit
+1086,5,2025-01-01,Salary credited,54288.25,income,Income,Employer/Institute
+1087,5,2025-01-02,DMart grocery shopping,907.27,expense,Food,DMart grocery shopping
+1088,5,2025-01-05,BigBasket grocery order,2184.1,expense,Food,BigBasket grocery order
+1089,5,2025-01-07,Ajio order,2084.35,expense,Shopping,Ajio order
+1090,5,2025-01-09,ATM cash withdrawal,595.71,expense,Other,ATM cash withdrawal
+1091,5,2025-01-10,LPG cylinder booking,1069.66,expense,Bills,LPG cylinder booking
+1092,5,2025-01-11,Amazon books order,629.74,expense,Education,Amazon books order
+1093,5,2025-01-12,Water bill payment,475.54,expense,Bills,Water bill payment
+1094,5,2025-01-13,Local tiffin service,73.84,expense,Food,Local tiffin service
+1095,5,2025-01-16,BookMyShow movie ticket,435.33,expense,Entertainment,BookMyShow movie ticket
+1096,5,2025-01-16,Rapido bike taxi,129.05,expense,Transport,Rapido bike taxi
+1097,5,2025-01-16,Amazon purchase - express,3553.14,expense,Shopping,Amazon purchase
+1098,5,2025-01-17,Health insurance premium,7592.17,expense,Health,Health insurance premium
+1099,5,2025-01-18,Ajio order,641.82,expense,Shopping,Ajio order
+1100,5,2025-01-18,Barbeque Nation dinner,2419.97,expense,Food,Barbeque Nation dinner
+1101,5,2025-01-20,Hostel/room rent,6938.47,expense,Bills,Hostel/room rent
+1102,5,2025-01-22,Doctor consultation fee,631.67,expense,Health,Doctor consultation fee
+1103,5,2025-01-24,Swiggy order - app,480.21,expense,Food,Swiggy order
+1104,5,2025-01-26,BigBasket grocery order,796.33,expense,Food,BigBasket grocery order
+1105,5,2025-01-26,IndiGo flight booking,3958.31,expense,Transport,IndiGo flight booking
+1106,5,2025-01-29,Croma electronics,11755.6,expense,Shopping,Croma electronics
+1107,5,2025-01-29,Dental clinic visit,896.51,expense,Health,Dental clinic visit
+1108,5,2025-01-30,Starbucks Coffee,464.58,expense,Food,Starbucks Coffee
+1109,5,2025-01-30,McDonalds,330.01,expense,Food,McDonalds
+1110,5,2025-02-04,Library fine/fee,44.12,expense,Education,Library fine/fee
+1111,5,2025-02-04,Salary credited,52605.0,income,Income,Employer/Institute
+1112,5,2025-02-07,Cult.fit gym membership,1518.61,expense,Health,Cult.fit gym membership
+1113,5,2025-02-09,Courier/shipping charge,100.74,expense,Other,Courier/shipping charge
+1114,5,2025-02-10,Zomato order - wallet,310.43,expense,Food,Zomato order
+1115,5,2025-02-12,Decathlon sports gear,2296.76,expense,Shopping,Decathlon sports gear
+1116,5,2025-02-14,Swiggy order - campus,541.25,expense,Food,Swiggy order
+1117,5,2025-02-17,Steam game purchase,849.14,expense,Entertainment,Steam game purchase
+1118,5,2025-02-18,Netflix subscription,446.89,expense,Entertainment,Netflix subscription
+1119,5,2025-02-22,Indian Oil petrol,1979.13,expense,Transport,Indian Oil petrol
+1120,5,2025-02-22,Savings account interest credited,196.91,income,Income,Savings account interest credited
+1121,5,2025-02-23,Chai/tea stall,38.12,expense,Food,Chai/tea stall
+1122,5,2025-02-24,Water bill payment,209.06,expense,Bills,Water bill payment
+1123,5,2025-02-25,Steam game purchase,1211.86,expense,Entertainment,Steam game purchase
+1124,5,2025-02-26,Netflix subscription,483.32,expense,Entertainment,Netflix subscription
+1125,5,2025-02-27,Decathlon sports gear,2202.32,expense,Shopping,Decathlon sports gear
+1126,5,2025-03-01,Zomato order - campus,690.45,expense,Food,Zomato order
+1127,5,2025-03-01,Stationery/printouts,199.72,expense,Education,Stationery/printouts
+1128,5,2025-03-03,Rapido bike taxi,85.95,expense,Transport,Rapido bike taxi
+1129,5,2025-03-03,Decathlon sports gear,1749.8,expense,Shopping,Decathlon sports gear
+1130,5,2025-03-03,Indian Oil petrol,1791.68,expense,Transport,Indian Oil petrol
+1131,5,2025-03-03,Jio mobile recharge,330.14,expense,Bills,Jio mobile recharge
+1132,5,2025-03-05,Salary credited,57825.79,income,Income,Employer/Institute
+1133,5,2025-03-07,Indian Oil petrol,881.18,expense,Transport,Indian Oil petrol
+1134,5,2025-03-08,Swiggy order - app,336.48,expense,Food,Swiggy order
+1135,5,2025-03-10,Airtel postpaid bill,450.37,expense,Bills,Airtel postpaid bill
+1136,5,2025-03-11,McDonalds,217.15,expense,Food,McDonalds
+1137,5,2025-03-13,Gift purchase,981.71,expense,Other,Gift purchase
+1138,5,2025-03-13,Ajio order,544.81,expense,Shopping,Ajio order
+1139,5,2025-03-17,Campus mess bill,3010.87,expense,Food,Campus mess bill
+1140,5,2025-03-17,Cafe Coffee Day,258.84,expense,Food,Cafe Coffee Day
+1141,5,2025-03-18,Decathlon sports gear,844.85,expense,Shopping,Decathlon sports gear
+1142,5,2025-03-18,IndiGo flight booking,4902.93,expense,Transport,IndiGo flight booking
+1143,5,2025-03-19,Netflix subscription,429.71,expense,Entertainment,Netflix subscription
+1144,5,2025-03-20,Society maintenance charge,1494.52,expense,Bills,Society maintenance charge
+1145,5,2025-03-22,Local tiffin service,101.0,expense,Food,Local tiffin service
+1146,5,2025-03-23,Health insurance premium,2069.72,expense,Health,Health insurance premium
+1147,5,2025-03-24,Local tiffin service,61.33,expense,Food,Local tiffin service
+1148,5,2025-03-25,Airtel postpaid bill,998.72,expense,Bills,Airtel postpaid bill
+1149,5,2025-03-27,Chai/tea stall,10.54,expense,Food,Chai/tea stall
+1150,5,2025-03-29,Swiggy order - app,237.01,expense,Food,Swiggy order
+1151,5,2025-03-30,Library fine/fee,23.8,expense,Education,Library fine/fee
+1152,5,2025-03-30,Coaching institute fee,5622.68,expense,Education,Coaching institute fee
+1153,5,2025-03-30,BESCOM electricity bill,1833.77,expense,Bills,BESCOM electricity bill
+1154,5,2025-03-30,Udemy course purchase,1886.81,expense,Education,Udemy course purchase
+1155,5,2025-03-31,Chai/tea stall,38.89,expense,Food,Chai/tea stall
+1156,5,2025-04-01,Cult.fit gym membership,1573.08,expense,Health,Cult.fit gym membership
+1157,5,2025-04-02,Salary credited,58378.34,income,Income,Employer/Institute
+1158,5,2025-04-03,Indian Oil petrol,1774.4,expense,Transport,Indian Oil petrol
+1159,5,2025-04-06,McDonalds,298.54,expense,Food,McDonalds
+1160,5,2025-04-12,Stationery/printouts,293.24,expense,Education,Stationery/printouts
+1161,5,2025-04-14,Chai/tea stall,10.19,expense,Food,Chai/tea stall
+1162,5,2025-04-16,Campus mess bill,2258.03,expense,Food,Campus mess bill
+1163,5,2025-04-19,Coursera subscription,2954.0,expense,Education,Coursera subscription
+1164,5,2025-04-22,Freelance project payment,12935.88,income,Income,Freelance project payment
+1165,5,2025-04-23,Chai/tea stall,31.25,expense,Food,Chai/tea stall
+1166,5,2025-04-25,Coursera subscription,3833.2,expense,Education,Coursera subscription
+1167,5,2025-04-29,Uber ride,438.57,expense,Transport,Uber ride
+1168,5,2025-04-30,Indian Oil petrol,681.55,expense,Transport,Indian Oil petrol
+1169,5,2025-04-30,Parking fee,74.41,expense,Transport,Parking fee
+1170,5,2025-05-02,DMart grocery shopping,857.68,expense,Food,DMart grocery shopping
+1171,5,2025-05-02,Tata Play DTH recharge,513.09,expense,Bills,Tata Play DTH recharge
+1172,5,2025-05-02,Salary credited,57095.52,income,Income,Employer/Institute
+1173,5,2025-05-03,Ajio order,2315.65,expense,Shopping,Ajio order
+1174,5,2025-05-07,ATM cash withdrawal,3283.75,expense,Other,ATM cash withdrawal
+1175,5,2025-05-08,Ola cab,372.66,expense,Transport,Ola cab
+1176,5,2025-05-08,Myntra fashion order,2601.55,expense,Shopping,Myntra fashion order
+1177,5,2025-05-08,Exam registration fee,1034.06,expense,Education,Exam registration fee
+1178,5,2025-05-08,McDonalds,324.65,expense,Food,McDonalds
+1179,5,2025-05-12,Spotify Premium,139.75,expense,Entertainment,Spotify Premium
+1180,5,2025-05-13,Ajio order,886.49,expense,Shopping,Ajio order
+1181,5,2025-05-14,Metro card recharge,403.31,expense,Transport,Metro card recharge
+1182,5,2025-05-15,BESCOM electricity bill,1974.46,expense,Bills,BESCOM electricity bill
+1183,5,2025-05-16,LPG cylinder booking,1099.28,expense,Bills,LPG cylinder booking
+1184,5,2025-05-16,Local mall shopping,2790.79,expense,Shopping,Local mall shopping
+1185,5,2025-05-18,Dominos Pizza,365.28,expense,Food,Dominos Pizza
+1186,5,2025-05-20,IRCTC train ticket,695.22,expense,Transport,IRCTC train ticket
+1187,5,2025-05-21,Cashback/refund credited,592.26,income,Income,Cashback/refund credited
+1188,5,2025-05-25,BigBasket grocery order,1504.14,expense,Food,BigBasket grocery order
+1189,5,2025-05-27,Water bill payment,164.64,expense,Bills,Water bill payment
+1190,5,2025-05-30,Miscellaneous expense,572.02,expense,Other,Miscellaneous expense
+1191,5,2025-06-01,Local tiffin service,107.44,expense,Food,Local tiffin service
+1192,5,2025-06-03,Amazon purchase - express,3907.01,expense,Shopping,Amazon purchase
+1193,5,2025-06-03,Coaching institute fee,13186.68,expense,Education,Coaching institute fee
+1194,5,2025-06-03,Salary credited,56908.85,income,Income,Employer/Institute
+1195,5,2025-06-04,Cafe Coffee Day,222.52,expense,Food,Cafe Coffee Day
+1196,5,2025-06-04,Family transfer received,7322.18,income,Income,Family transfer received
+1197,5,2025-06-05,Cafe Coffee Day,211.09,expense,Food,Cafe Coffee Day
+1198,5,2025-06-07,Dental clinic visit,2448.96,expense,Health,Dental clinic visit
+1199,5,2025-06-09,Indian Oil petrol,640.89,expense,Transport,Indian Oil petrol
+1200,5,2025-06-12,Chai/tea stall,34.77,expense,Food,Chai/tea stall
+1201,5,2025-06-13,Local mall shopping,812.94,expense,Shopping,Local mall shopping
+1202,5,2025-06-13,Cult.fit gym membership,2935.39,expense,Health,Cult.fit gym membership
+1203,5,2025-06-14,IndiGo flight booking,5409.86,expense,Transport,IndiGo flight booking
+1204,5,2025-06-15,Library fine/fee,100.2,expense,Education,Library fine/fee
+1205,5,2025-06-15,Starbucks Coffee,363.6,expense,Food,Starbucks Coffee
+1206,5,2025-06-17,Spotify Premium,129.02,expense,Entertainment,Spotify Premium
+1207,5,2025-06-17,Amusement park entry,1579.0,expense,Entertainment,Amusement park entry
+1208,5,2025-06-19,Flipkart order - MG Road,651.18,expense,Shopping,Flipkart order
+1209,5,2025-06-19,Coursera subscription,3062.66,expense,Education,Coursera subscription
+1210,5,2025-06-21,Apollo Pharmacy,260.8,expense,Health,Apollo Pharmacy
+1211,5,2025-06-25,ATM cash withdrawal,610.64,expense,Other,ATM cash withdrawal
+1212,5,2025-06-26,Cafe Coffee Day,246.54,expense,Food,Cafe Coffee Day
+1213,5,2025-06-26,ACT Fibernet broadband bill,872.45,expense,Bills,ACT Fibernet broadband bill
+1214,5,2025-06-27,BigBasket grocery order,1727.65,expense,Food,BigBasket grocery order
+1215,5,2025-06-27,Netflix subscription,229.53,expense,Entertainment,Netflix subscription
+1216,5,2025-07-01,Dr Lal PathLabs test,2230.87,expense,Health,Dr Lal PathLabs test
+1217,5,2025-07-02,McDonalds,436.7,expense,Food,McDonalds
+1218,5,2025-07-02,Exam registration fee,1582.53,expense,Education,Exam registration fee
+1219,5,2025-07-03,Courier/shipping charge,247.33,expense,Other,Courier/shipping charge
+1220,5,2025-07-03,Dental clinic visit,822.17,expense,Health,Dental clinic visit
+1221,5,2025-07-04,Udemy course purchase,2308.18,expense,Education,Udemy course purchase
+1222,5,2025-07-04,Croma electronics,1588.35,expense,Shopping,Croma electronics
+1223,5,2025-07-05,Salary credited,52393.37,income,Income,Employer/Institute
+1224,5,2025-07-09,Local tiffin service,117.05,expense,Food,Local tiffin service
+1225,5,2025-07-10,Local tiffin service,82.36,expense,Food,Local tiffin service
+1226,5,2025-07-11,YouTube Premium,156.31,expense,Entertainment,YouTube Premium
+1227,5,2025-07-12,Cafe Coffee Day,192.88,expense,Food,Cafe Coffee Day
+1228,5,2025-07-12,Family transfer received,2282.46,income,Income,Family transfer received
+1229,5,2025-07-16,Starbucks Coffee,410.53,expense,Food,Starbucks Coffee
+1230,5,2025-07-18,Coursera subscription,1697.88,expense,Education,Coursera subscription
+1231,5,2025-07-18,DMart grocery shopping,746.23,expense,Food,DMart grocery shopping
+1232,5,2025-07-20,Swiggy order - monthly,455.29,expense,Food,Swiggy order
+1233,5,2025-07-21,Metro card recharge,161.56,expense,Transport,Metro card recharge
+1234,5,2025-07-23,Cult.fit gym membership,2360.0,expense,Health,Cult.fit gym membership
+1235,5,2025-07-23,DMart grocery shopping,1609.5,expense,Food,DMart grocery shopping
+1236,5,2025-07-23,Savings account interest credited,54.4,income,Income,Savings account interest credited
+1237,5,2025-07-25,Apollo Pharmacy,463.27,expense,Health,Apollo Pharmacy
+1238,5,2025-07-30,Amazon books order,1120.77,expense,Education,Amazon books order
+1239,5,2025-07-31,Exam registration fee,2267.57,expense,Education,Exam registration fee
+1240,5,2025-08-01,Bus pass recharge,863.44,expense,Transport,Bus pass recharge
+1241,5,2025-08-01,Salary credited,55639.8,income,Income,Employer/Institute
+1242,5,2025-08-03,BigBasket grocery order,482.34,expense,Food,BigBasket grocery order
+1243,5,2025-08-04,Exam registration fee,548.8,expense,Education,Exam registration fee
+1244,5,2025-08-07,Cafe Coffee Day,345.78,expense,Food,Cafe Coffee Day
+1245,5,2025-08-10,Chai/tea stall,30.5,expense,Food,Chai/tea stall
+1246,5,2025-08-11,Local mall shopping,3525.25,expense,Shopping,Local mall shopping
+1247,5,2025-08-12,Dominos Pizza,766.91,expense,Food,Dominos Pizza
+1248,5,2025-08-14,Swiggy order - wallet,200.06,expense,Food,Swiggy order
+1249,5,2025-08-15,Airtel postpaid bill,1037.05,expense,Bills,Airtel postpaid bill
+1250,5,2025-08-17,ACT Fibernet broadband bill,846.15,expense,Bills,ACT Fibernet broadband bill
+1251,5,2025-08-19,Dominos Pizza,654.76,expense,Food,Dominos Pizza
+1252,5,2025-08-20,Airtel postpaid bill,472.19,expense,Bills,Airtel postpaid bill
+1253,5,2025-08-23,Spotify Premium,174.67,expense,Entertainment,Spotify Premium
+1254,5,2025-08-24,Freelance project payment,10729.43,income,Income,Freelance project payment
+1255,5,2025-08-30,Rapido bike taxi,135.71,expense,Transport,Rapido bike taxi
+1256,5,2025-08-31,Water bill payment,187.07,expense,Bills,Water bill payment
+1257,5,2025-08-31,Ajio order,1430.62,expense,Shopping,Ajio order
+1258,5,2025-09-01,Barbeque Nation dinner,2065.46,expense,Food,Barbeque Nation dinner
+1259,5,2025-09-02,DMart grocery shopping,1085.83,expense,Food,DMart grocery shopping
+1260,5,2025-09-02,Salary credited,56878.71,income,Income,Employer/Institute
+1261,5,2025-09-03,Croma electronics,5868.68,expense,Shopping,Croma electronics
+1262,5,2025-09-03,Parking fee,75.49,expense,Transport,Parking fee
+1263,5,2025-09-05,Parking fee,59.09,expense,Transport,Parking fee
+1264,5,2025-09-06,Ajio order,1831.18,expense,Shopping,Ajio order
+1265,5,2025-09-06,Local tiffin service,78.62,expense,Food,Local tiffin service
+1266,5,2025-09-09,Jio mobile recharge,844.27,expense,Bills,Jio mobile recharge
+1267,5,2025-09-10,McDonalds,198.23,expense,Food,McDonalds
+1268,5,2025-09-10,Charity donation,1755.92,expense,Other,Charity donation
+1269,5,2025-09-11,Airtel postpaid bill,654.0,expense,Bills,Airtel postpaid bill
+1270,5,2025-09-12,Dr Lal PathLabs test,559.87,expense,Health,Dr Lal PathLabs test
+1271,5,2025-09-13,Auto fare,86.33,expense,Transport,Auto fare
+1272,5,2025-09-13,Indian Oil petrol,1701.96,expense,Transport,Indian Oil petrol
+1273,5,2025-09-15,Parking fee,88.05,expense,Transport,Parking fee
+1274,5,2025-09-16,IndiGo flight booking,6800.61,expense,Transport,IndiGo flight booking
+1275,5,2025-09-17,Swiggy order - campus,400.34,expense,Food,Swiggy order
+1276,5,2025-09-17,Barbeque Nation dinner,1023.16,expense,Food,Barbeque Nation dinner
+1277,5,2025-09-18,Chai/tea stall,26.18,expense,Food,Chai/tea stall
+1278,5,2025-09-19,Monthly stipend credited,10177.12,income,Income,Monthly stipend credited
+1279,5,2025-09-24,Tata Play DTH recharge,688.3,expense,Bills,Tata Play DTH recharge
+1280,5,2025-09-24,Cashback/refund credited,344.6,income,Income,Cashback/refund credited
+1281,5,2025-09-25,Swiggy order - campus,330.73,expense,Food,Swiggy order
+1282,5,2025-09-26,Ajio order,1232.5,expense,Shopping,Ajio order
+1283,5,2025-09-28,Water bill payment,548.69,expense,Bills,Water bill payment
+1284,5,2025-09-29,Dr Lal PathLabs test,1864.69,expense,Health,Dr Lal PathLabs test
+1285,5,2025-10-01,Tata Play DTH recharge,676.36,expense,Bills,Tata Play DTH recharge
+1286,5,2025-10-02,Flipkart order - online,4047.58,expense,Shopping,Flipkart order
+1287,5,2025-10-05,Salary credited,57976.18,income,Income,Employer/Institute
+1288,5,2025-10-07,Miscellaneous expense,505.8,expense,Other,Miscellaneous expense
+1289,5,2025-10-07,Amazon books order,1173.46,expense,Education,Amazon books order
+1290,5,2025-10-12,Charity donation,1344.96,expense,Other,Charity donation
+1291,5,2025-10-16,Indian Oil petrol,693.84,expense,Transport,Indian Oil petrol
+1292,5,2025-10-16,Steam game purchase,1562.96,expense,Entertainment,Steam game purchase
+1293,5,2025-10-16,Flipkart order - wallet,2390.06,expense,Shopping,Flipkart order
+1294,5,2025-10-20,Ola cab,252.86,expense,Transport,Ola cab
+1295,5,2025-10-20,Local tiffin service,87.08,expense,Food,Local tiffin service
+1296,5,2025-10-20,Croma electronics,4218.59,expense,Shopping,Croma electronics
+1297,5,2025-10-20,IndiGo flight booking,5583.25,expense,Transport,IndiGo flight booking
+1298,5,2025-10-21,Coaching institute fee,24679.55,expense,Education,Coaching institute fee
+1299,5,2025-10-22,Netflix subscription,595.39,expense,Entertainment,Netflix subscription
+1300,5,2025-10-23,IndiGo flight booking,7344.39,expense,Transport,IndiGo flight booking
+1301,5,2025-10-25,ATM cash withdrawal,4977.09,expense,Other,ATM cash withdrawal
+1302,5,2025-10-26,Water bill payment,266.89,expense,Bills,Water bill payment
+1303,5,2025-10-28,Dominos Pizza,887.71,expense,Food,Dominos Pizza
+1304,5,2025-10-28,IRCTC train ticket,1232.71,expense,Transport,IRCTC train ticket
+1305,5,2025-10-28,Health insurance premium,7068.7,expense,Health,Health insurance premium
+1306,5,2025-10-29,Dr Lal PathLabs test,1740.9,expense,Health,Dr Lal PathLabs test
+1307,5,2025-10-29,Flipkart order - monthly,3349.79,expense,Shopping,Flipkart order
+1308,5,2025-10-30,Metro card recharge,359.86,expense,Transport,Metro card recharge
+1309,5,2025-10-31,Apollo Pharmacy,404.92,expense,Health,Apollo Pharmacy
+1310,5,2025-11-01,IndiGo flight booking,2698.09,expense,Transport,IndiGo flight booking
+1311,5,2025-11-02,Salary credited,54054.59,income,Income,Employer/Institute
+1312,5,2025-11-05,Dental clinic visit,823.79,expense,Health,Dental clinic visit
+1313,5,2025-11-05,Swiggy order - app,561.03,expense,Food,Swiggy order
+1314,5,2025-11-06,IRCTC train ticket,666.94,expense,Transport,IRCTC train ticket
+1315,5,2025-11-10,Campus mess bill,1674.27,expense,Food,Campus mess bill
+1316,5,2025-11-12,LPG cylinder booking,1099.48,expense,Bills,LPG cylinder booking
+1317,5,2025-11-12,Chai/tea stall,27.77,expense,Food,Chai/tea stall
+1318,5,2025-11-13,Rapido bike taxi,92.97,expense,Transport,Rapido bike taxi
+1319,5,2025-11-15,Dental clinic visit,2856.83,expense,Health,Dental clinic visit
+1320,5,2025-11-21,Parking fee,52.15,expense,Transport,Parking fee
+1321,5,2025-11-22,Campus mess bill,1800.1,expense,Food,Campus mess bill
+1322,5,2025-11-22,Miscellaneous expense,275.72,expense,Other,Miscellaneous expense
+1323,5,2025-11-23,Dominos Pizza,403.34,expense,Food,Dominos Pizza
+1324,5,2025-11-26,McDonalds,319.72,expense,Food,McDonalds
+1325,5,2025-11-27,Miscellaneous expense,421.91,expense,Other,Miscellaneous expense
+1326,5,2025-11-29,Dr Lal PathLabs test,624.66,expense,Health,Dr Lal PathLabs test
+1327,5,2025-12-01,PVR Cinemas,904.85,expense,Entertainment,PVR Cinemas
+1328,5,2025-12-02,Swiggy order - weekend,623.48,expense,Food,Swiggy order
+1329,5,2025-12-03,Salary credited,57346.09,income,Income,Employer/Institute
+1330,5,2025-12-06,Hostel/room rent,12065.91,expense,Bills,Hostel/room rent
+1331,5,2025-12-08,Barbeque Nation dinner,2504.15,expense,Food,Barbeque Nation dinner
+1332,5,2025-12-11,Bus pass recharge,827.47,expense,Transport,Bus pass recharge
+1333,5,2025-12-15,Amusement park entry,1175.85,expense,Entertainment,Amusement park entry
+1334,5,2025-12-18,Croma electronics,4838.29,expense,Shopping,Croma electronics
+1335,5,2025-12-19,Starbucks Coffee,262.3,expense,Food,Starbucks Coffee
+1336,5,2025-12-20,Tata Play DTH recharge,332.68,expense,Bills,Tata Play DTH recharge
+1337,5,2025-12-20,Myntra fashion order,749.65,expense,Shopping,Myntra fashion order
+1338,5,2025-12-22,Bus pass recharge,756.62,expense,Transport,Bus pass recharge
+1339,5,2025-12-23,Charity donation,619.89,expense,Other,Charity donation
+1340,5,2025-12-23,IndiGo flight booking,4957.97,expense,Transport,IndiGo flight booking
+1341,5,2025-12-24,Tata Play DTH recharge,613.75,expense,Bills,Tata Play DTH recharge
+1342,5,2025-12-26,Dominos Pizza,551.81,expense,Food,Dominos Pizza
+1343,5,2025-12-27,Udemy course purchase,1437.87,expense,Education,Udemy course purchase
+1344,5,2025-12-29,Udemy course purchase,2594.33,expense,Education,Udemy course purchase
+1345,5,2025-12-31,Myntra fashion order,1228.96,expense,Shopping,Myntra fashion order
+1346,5,2025-12-31,Amazon purchase - online,447.78,expense,Shopping,Amazon purchase

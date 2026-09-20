@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wisp — AI Finance Assistant</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0B0714; --surface:#151022; --surface2:#1C1630; --border:#2A2340;
+    --text:#F0EEF7; --muted:#9691AE;
+    --grad: linear-gradient(135deg,#7C5CFF,#E85BC7,#FF9457);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',sans-serif;}
+  body{background:var(--bg);color:var(--text);min-height:100vh;}
+  h1,h2,h3{font-family:'Space Grotesk',sans-serif;}
+  input,select,button{font-family:inherit;font-size:14px;}
+  input,select{background:var(--surface2);border:1px solid var(--border);color:var(--text);
+    border-radius:10px;padding:10px 12px;width:100%;margin-bottom:10px;}
+  button{background:var(--grad);border:none;color:#fff;font-weight:600;border-radius:10px;
+    padding:11px 18px;cursor:pointer;width:100%;}
+  button.secondary{background:var(--surface2);color:var(--muted);}
+  .hidden{display:none !important;}
+
+  #authScreen{max-width:360px;margin:60px auto;padding:24px;background:var(--surface);
+    border:1px solid var(--border);border-radius:16px;}
+  #authScreen .logo{width:36px;height:36px;border-radius:10px;background:var(--grad);margin-bottom:14px;}
+  #authScreen h2{margin-bottom:4px;}
+  #authScreen p{color:var(--muted);font-size:13px;margin-bottom:18px;}
+  .tabs{display:flex;gap:8px;margin-bottom:16px;}
+  .tabs button{background:var(--surface2);color:var(--muted);}
+  .tabs button.active{background:var(--grad);color:#fff;}
+  #authMsg{color:#F2617E;font-size:12.5px;margin-top:4px;}
+  .showpw{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:12.5px;margin:-4px 0 10px;}
+  .showpw input{width:auto;margin:0;}
+
+  #appScreen{display:grid;grid-template-columns:200px 1fr;min-height:100vh;}
+  .sidebar{background:var(--surface);border-right:1px solid var(--border);padding:20px 14px;}
+  .sidebar .logo-row{display:flex;align-items:center;gap:8px;margin-bottom:24px;}
+  .sidebar .logo-row .dot{width:26px;height:26px;border-radius:8px;background:var(--grad);}
+  .sidebar .logo-row span{font-family:'Space Grotesk';font-weight:700;}
+  .navitem{padding:10px 12px;border-radius:10px;color:var(--muted);cursor:pointer;
+    margin-bottom:4px;font-size:13.5px;font-weight:500;}
+  .navitem:hover{background:var(--surface2);color:var(--text);}
+  .navitem.active{background:var(--surface2);color:#fff;}
+  .main{padding:26px 30px;}
+  .main h2{margin-bottom:18px;}
+
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;
+    padding:18px;margin-bottom:16px;}
+  .row3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:16px;}
+  .stat .label{color:var(--muted);font-size:12px;}
+  .stat .val{font-family:'Space Grotesk';font-size:22px;font-weight:700;margin-top:6px;}
+  .stat.income .val{color:#2FE0C9;} .stat.expense .val{color:#F2617E;} .stat.balance .val{
+    background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;}
+
+  .txn-row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;
+    border-bottom:1px solid var(--border);font-size:13.5px;}
+  .txn-row:last-child{border-bottom:none;}
+  .txn-row .cat-tag{font-size:11px;color:var(--muted);}
+  .neg{color:#F2617E;font-weight:600;} .pos{color:#2FE0C9;font-weight:600;}
+
+  .predict-box{background:var(--surface2);border:1px solid var(--border);border-radius:12px;
+    padding:14px;margin-top:6px;}
+  .predict-box .catchip{display:inline-block;padding:5px 12px;border-radius:20px;
+    background:var(--grad);color:#fff;font-weight:600;font-size:13px;margin:6px 0;}
+
+  .budget-bar{height:8px;background:var(--surface2);border-radius:8px;overflow:hidden;margin-top:8px;}
+  .budget-fill{height:100%;background:var(--grad);}
+  .alert-banner{background:#F2617E22;border:1px solid #F2617E;color:#F2617E;border-radius:10px;
+    padding:10px 14px;font-size:12.5px;margin-bottom:14px;}
+
+  .insight-item{padding:12px 14px;background:var(--surface2);border-radius:10px;
+    margin-bottom:10px;font-size:13.5px;border-left:3px solid #E85BC7;}
+  .disclaimer{color:var(--muted);font-size:11.5px;font-style:italic;}
+
+  .del-btn{background:transparent;color:#F2617E;width:auto;padding:4px 8px;font-size:12px;}
+  .edit-btn{background:transparent;color:#7C5CFF;width:auto;padding:4px 8px;font-size:12px;}
+  .pattern-row{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--border);font-size:13px;}
+  .pattern-row:last-child{border-bottom:none;}
+  .up{color:#F2617E;} .down{color:#2FE0C9;} .flat{color:var(--muted);}
+  .chat-bubble{background:var(--surface2);border-radius:12px 12px 12px 3px;padding:10px 13px;margin-bottom:8px;font-size:13px;max-width:85%;white-space:pre-line;}
+  .chat-bubble.me{background:var(--grad);color:#fff;margin-left:auto;border-radius:12px 12px 3px 12px;}
+  .chip-sugg{display:inline-block;border:1px solid var(--border);border-radius:16px;padding:5px 12px;font-size:11.5px;color:#7C5CFF;cursor:pointer;margin:0 6px 6px 0;}
+</style>
+</head>
+<body>
+
+<div id="authScreen">
+  <div class="logo"></div>
+  <h2 id="authTitle">Welcome back</h2>
+  <p id="authSub">Log in to see this month's spending.</p>
+  <div class="tabs">
+    <button id="tabLogin" class="active" onclick="showTab('login')">Log In</button>
+    <button id="tabRegister" onclick="showTab('register')">Sign Up</button>
+  </div>
+  <div id="loginForm">
+    <input type="email" id="loginEmail" placeholder="Email">
+    <input type="password" id="loginPassword" placeholder="Password">
+    <label class="showpw"><input type="checkbox" onclick="togglePassword('loginPassword', this)"> Show password</label>
+    <button onclick="login()">Log In</button>
+  </div>
+  <div id="registerForm" class="hidden">
+    <input type="text" id="regName" placeholder="Full name">
+    <input type="email" id="regEmail" placeholder="Email">
+    <input type="password" id="regPassword" placeholder="Password (min 6 chars)">
+    <label class="showpw"><input type="checkbox" onclick="togglePassword('regPassword', this)"> Show password</label>
+    <button onclick="register()">Create account</button>
+  </div>
+  <p id="authMsg"></p>
+</div>
+
+<div id="appScreen" class="hidden">
+  <div class="sidebar">
+    <div class="logo-row"><div class="dot"></div><span>Wisp</span></div>
+    <div class="navitem active" onclick="showPage('home')">🏠 Home</div>
+    <div class="navitem" onclick="showPage('add')">➕ Add transaction</div>
+    <div class="navitem" onclick="showPage('transactions')">🔍 Transactions</div>
+    <div class="navitem" onclick="showPage('budgets')">💰 Budgets</div>
+    <div class="navitem" onclick="showPage('insights')">📈 Insights</div>
+    <div class="navitem" onclick="showPage('forecast')">📅 Forecast</div>
+    <div class="navitem" onclick="showPage('chatbot')">💬 Ask Wisp</div>
+    <div class="navitem" onclick="logout()" style="margin-top:30px;color:#F2617E;">⎋ Log out</div>
+  </div>
+
+  <div class="main">
+    <div id="page-home">
+      <h2>Good day, <span id="homeUserName"></span></h2>
+      <div class="row3">
+        <div class="card stat income"><div class="label">Income this month</div><div class="val" id="statIncome">₹0</div></div>
+        <div class="card stat expense"><div class="label">Spent this month</div><div class="val" id="statExpense">₹0</div></div>
+        <div class="card stat balance"><div class="label">Balance</div><div class="val" id="statBalance">₹0</div></div>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:10px;">Monthly spending trend</h3>
+        <canvas id="trendChart" height="80"></canvas>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:10px;">Recent transactions</h3>
+        <div id="homeRecent"></div>
+      </div>
+    </div>
+
+    <div id="page-add" class="hidden">
+      <h2>Add transaction</h2>
+      <div class="card" style="max-width:400px;">
+        <select id="addType">
+          <option value="expense">Expense</option>
+          <option value="income">Income</option>
+        </select>
+        <input type="text" id="addDesc" placeholder="e.g. Swiggy dinner">
+        <input type="number" id="addAmount" placeholder="Amount (₹)">
+        <button onclick="predictAndShow()">Predict category</button>
+        <div id="predictBox" class="predict-box hidden">
+          <div style="font-size:12px;color:var(--muted);">Wisp thinks this is</div>
+          <div class="catchip" id="predictedCat"></div>
+          <div id="correctionRow" style="margin-top:10px;">
+            <select id="correctCatSelect">
+              <option value="">Not right? Pick correct category</option>
+              <option>Food</option><option>Transport</option><option>Shopping</option>
+              <option>Bills</option><option>Entertainment</option><option>Health</option>
+              <option>Education</option><option>Other</option>
+            </select>
+            <button class="secondary" onclick="submitCorrection()">Save correction</button>
+          </div>
+        </div>
+        <p id="addResult" style="font-size:12.5px;color:#2FE0C9;margin-top:8px;"></p>
+      </div>
+    </div>
+
+    <div id="page-transactions" class="hidden">
+      <h2>All transactions</h2>
+      <div class="card" id="txnListBox"></div>
+    </div>
+
+    <div id="page-budgets" class="hidden">
+      <h2>Budgets</h2>
+      <div id="budgetAlerts"></div>
+      <div class="card" style="max-width:400px;">
+        <input type="text" id="budgetCat" placeholder="Category (e.g. Food)">
+        <input type="number" id="budgetLimit" placeholder="Monthly limit (₹)">
+        <button onclick="createBudget()">Save budget</button>
+      </div>
+      <div class="card" id="budgetListBox"></div>
+    </div>
+
+    <div id="page-insights" class="hidden">
+      <h2>Insights</h2>
+      <div class="card" id="insightsBox"></div>
+      <h3 style="margin:18px 0 10px;">Spending patterns</h3>
+      <div class="card" id="patternsBox"></div>
+    </div>
+
+    <div id="page-forecast" class="hidden">
+      <h2>Spending forecast</h2>
+      <div class="card" style="max-width:400px;">
+        <div class="stat"><div class="label">Estimated next month</div><div class="val" id="forecastVal" style="color:#7C5CFF;">₹0</div></div>
+        <p id="forecastNote" style="font-size:12px;color:var(--muted);margin-top:10px;"></p>
+      </div>
+    </div>
+
+    <div id="page-chatbot" class="hidden">
+      <h2>Ask Wisp</h2>
+      <div class="card" style="max-width:480px;">
+        <div id="chatLog" style="margin-bottom:12px;"></div>
+        <div style="margin-bottom:10px;">
+          <span class="chip-sugg" onclick="askSuggested('How is my food budget looking?')">Budget status</span>
+          <span class="chip-sugg" onclick="askSuggested('What is my forecast for next month?')">Forecast</span>
+          <span class="chip-sugg" onclick="askSuggested('How can I save money?')">Save money</span>
+        </div>
+        <div style="display:flex;gap:8px;">
+          <input type="text" id="chatInput" placeholder="Ask about your finances..." style="margin-bottom:0;">
+          <button onclick="sendChat()" style="width:auto;padding:10px 16px;">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const API = "http://127.0.0.1:5000";
+let currentUserId = localStorage.getItem("wisp_user_id");
+let currentUserName = localStorage.getItem("wisp_user_name");
+let lastTxnId = null;
+
+const CAT_ICON = {Food:"🍔",Transport:"🚕",Shopping:"🛍️",Bills:"💡",Entertainment:"🎬",Health:"💊",Education:"📚",Other:"🧾",Income:"💰"};
+
+if (currentUserId) { showApp(); }
+
+function togglePassword(id, cb){ document.getElementById(id).type = cb.checked ? "text" : "password"; }
+
+function showTab(which){
+  document.getElementById("tabLogin").classList.toggle("active", which==="login");
+  document.getElementById("tabRegister").classList.toggle("active", which==="register");
+  document.getElementById("loginForm").classList.toggle("hidden", which!=="login");
+  document.getElementById("registerForm").classList.toggle("hidden", which!=="register");
+  document.getElementById("authTitle").innerText = which==="login" ? "Welcome back" : "Create your account";
+  document.getElementById("authMsg").innerText = "";
+}
+
+async function register(){
+  const name = document.getElementById("regName").value;
+  const email = document.getElementById("regEmail").value;
+  const password = document.getElementById("regPassword").value;
+  const res = await fetch(API+"/register", {method:"POST",headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({name,email,password})});
+  const data = await res.json();
+  if (data.error){ document.getElementById("authMsg").innerText = data.error; return; }
+  document.getElementById("authMsg").style.color = "#2FE0C9";
+  document.getElementById("authMsg").innerText = "Account created — now log in.";
+  showTab("login");
+}
+
+async function login(){
+  const email = document.getElementById("loginEmail").value;
+  const password = document.getElementById("loginPassword").value;
+  const res = await fetch(API+"/login", {method:"POST",headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({email,password})});
+  const data = await res.json();
+  if (data.error){ document.getElementById("authMsg").innerText = data.error; return; }
+  currentUserId = data.user_id; currentUserName = data.name;
+  localStorage.setItem("wisp_user_id", currentUserId);
+  localStorage.setItem("wisp_user_name", currentUserName);
+  showApp();
+}
+
+function logout(){
+  localStorage.removeItem("wisp_user_id"); localStorage.removeItem("wisp_user_name");
+  currentUserId = null;
+  document.getElementById("appScreen").classList.add("hidden");
+  document.getElementById("authScreen").classList.remove("hidden");
+}
+
+function showApp(){
+  document.getElementById("authScreen").classList.add("hidden");
+  document.getElementById("appScreen").classList.remove("hidden");
+  document.getElementById("homeUserName").innerText = currentUserName || "";
+  showPage("home");
+}
+
+function showPage(name){
+  ["home","add","transactions","budgets","insights","forecast","chatbot"].forEach(p=>{
+    document.getElementById("page-"+p).classList.toggle("hidden", p!==name);
+  });
+  document.querySelectorAll(".navitem").forEach(n=>n.classList.remove("active"));
+  if (event && event.target) event.target.classList.add("active");
+  if (name==="home") loadHome();
+  if (name==="transactions") loadTransactions();
+  if (name==="budgets") loadBudgets();
+  if (name==="insights") { loadInsights(); loadPatterns(); }
+  if (name==="forecast") loadForecast();
+}
+
+async function loadHome(){
+  const res = await fetch(`${API}/dashboard?user_id=${currentUserId}`);
+  const data = await res.json();
+  document.getElementById("statIncome").innerText = "₹"+data.total_income.toLocaleString("en-IN");
+  document.getElementById("statExpense").innerText = "₹"+data.total_expenses.toLocaleString("en-IN");
+  document.getElementById("statBalance").innerText = "₹"+data.balance.toLocaleString("en-IN");
+
+  const txnRes = await fetch(`${API}/transactions?user_id=${currentUserId}`);
+  const txns = await txnRes.json();
+  const recent = txns.slice(-5).reverse();
+  document.getElementById("homeRecent").innerHTML = recent.map(t=>`
+    <div class="txn-row">
+      <div>${CAT_ICON[t.category]||"🧾"} ${t.description}<div class="cat-tag">${t.category}</div></div>
+      <div class="${t.transaction_type==='income'?'pos':'neg'}">${t.transaction_type==='income'?'+':'-'}₹${t.amount.toLocaleString('en-IN')}</div>
+    </div>`).join("") || "<p style='color:var(--muted);font-size:13px;'>No transactions yet.</p>";
+
+  try{
+    const trendRes = await fetch(`${API}/monthly-trend?user_id=${currentUserId}`);
+    const trendData = await trendRes.json();
+    if (window.myChart) window.myChart.destroy();
+    if (typeof Chart !== "undefined"){
+      window.myChart = new Chart(document.getElementById('trendChart'), {
+        type: 'bar',
+        data: { labels: trendData.months.length?trendData.months:["No data"], datasets: [{ label: 'Expenses', data: trendData.totals.length?trendData.totals:[0], backgroundColor: '#7C5CFF' }] },
+        options: { plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
+      });
+    }
+  }catch(e){ console.log("chart error", e); }
+}
+
+let pendingTxn = null;
+
+async function predictAndShow(){
+  const type = document.getElementById("addType").value;
+  const description = document.getElementById("addDesc").value;
+  const amount = parseFloat(document.getElementById("addAmount").value) || 0;
+  if (!description || !amount){ alert("Enter a description and amount"); return; }
+
+  if (type === "income"){
+    const res = await fetch(API+"/add-income", {method:"POST",headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({user_id: currentUserId, description, amount})});
+    const data = await res.json();
+    document.getElementById("predictedCat").innerText = "Income";
+    document.getElementById("predictBox").classList.remove("hidden");
+    document.getElementById("correctionRow").classList.add("hidden");
+    document.getElementById("addResult").innerText = "Saved!";
+    lastTxnId = data.transaction_id;
+  } else {
+    const res = await fetch(API+"/predict-category", {method:"POST",headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({user_id: currentUserId, description, amount})});
+    const data = await res.json();
+    lastTxnId = data.transaction_id;
+    document.getElementById("predictedCat").innerText = (CAT_ICON[data.category]||"") + " " + data.category;
+    document.getElementById("predictBox").classList.remove("hidden");
+    document.getElementById("correctionRow").classList.remove("hidden");
+    document.getElementById("addResult").innerText = "Saved!";
+  }
+  document.getElementById("addDesc").value = ""; document.getElementById("addAmount").value = "";
+}
+
+async function submitCorrection(){
+  const newCat = document.getElementById("correctCatSelect").value;
+  if (!newCat || !lastTxnId) return;
+  await fetch(API+"/correct-category", {method:"POST",headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({transaction_id: lastTxnId, category: newCat})});
+  document.getElementById("predictedCat").innerText = (CAT_ICON[newCat]||"") + " " + newCat;
+  document.getElementById("addResult").innerText = "Corrected and saved!";
+}
+
+async function loadTransactions(){
+  const res = await fetch(`${API}/transactions?user_id=${currentUserId}`);
+  const txns = await res.json();
+  document.getElementById("txnListBox").innerHTML = txns.slice().reverse().map(t=>`
+    <div class="txn-row">
+      <div>${CAT_ICON[t.category]||"🧾"} ${t.description}<div class="cat-tag">${t.category} · #${t.id}</div></div>
+      <div style="display:flex;align-items:center;gap:6px;">
+        <span class="${t.transaction_type==='income'?'pos':'neg'}">${t.transaction_type==='income'?'+':'-'}₹${t.amount.toLocaleString('en-IN')}</span>
+        <button class="edit-btn" onclick="editTxn(${t.id}, '${t.description.replace(/'/g,"")}', ${t.amount})">Edit</button>
+        <button class="del-btn" onclick="deleteTxn(${t.id})">Delete</button>
+      </div>
+    </div>`).join("") || "<p style='color:var(--muted);'>No transactions yet.</p>";
+}
+
+async function editTxn(id, oldDesc, oldAmount){
+  const newDesc = prompt("Description:", oldDesc);
+  if (newDesc === null) return;
+  const newAmount = prompt("Amount:", oldAmount);
+  if (newAmount === null) return;
+  await fetch(`${API}/transactions/${id}`, {method:"PUT",headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({description: newDesc, amount: parseFloat(newAmount)})});
+  loadTransactions();
+}
+
+async function deleteTxn(id){
+  await fetch(`${API}/transactions/${id}`, {method:"DELETE"});
+  loadTransactions();
+}
+
+async function createBudget(){
+  const category = document.getElementById("budgetCat").value;
+  const limit_amount = parseFloat(document.getElementById("budgetLimit").value);
+  if (!category || !limit_amount) return;
+  await fetch(API+"/budgets", {method:"POST",headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({user_id: currentUserId, category, limit_amount})});
+  document.getElementById("budgetCat").value=""; document.getElementById("budgetLimit").value="";
+  loadBudgets();
+}
+
+async function loadBudgets(){
+  const res = await fetch(`${API}/budgets?user_id=${currentUserId}`);
+  const budgets = await res.json();
+  const alerts = [];
+  document.getElementById("budgetListBox").innerHTML = budgets.map(b=>{
+    const pct = Math.min(100, (b.spent / b.limit_amount) * 100);
+    if (b.spent > b.limit_amount) alerts.push(`⚠ You've exceeded your ${b.category} budget.`);
+    else if (pct >= 80) alerts.push(`⚠ You're close to your ${b.category} budget limit (${Math.round(pct)}% used).`);
+    return `<div style="margin-bottom:14px;">
+      <div style="display:flex;justify-content:space-between;font-size:13.5px;">
+        <b>${CAT_ICON[b.category]||''} ${b.category}</b><span>₹${b.spent.toLocaleString('en-IN')} / ₹${b.limit_amount.toLocaleString('en-IN')}</span>
+      </div>
+      <div class="budget-bar"><div class="budget-fill" style="width:${pct}%"></div></div>
+    </div>`;
+  }).join("") || "<p style='color:var(--muted);'>No budgets set yet.</p>";
+  document.getElementById("budgetAlerts").innerHTML = alerts.map(a=>`<div class="alert-banner">${a}</div>`).join("");
+}
+
+async function loadInsights(){
+  const res = await fetch(`${API}/insights?user_id=${currentUserId}`);
+  const data = await res.json();
+  document.getElementById("insightsBox").innerHTML = data.insights.map((i,idx)=>
+    idx === data.insights.length-1 ? `<p class="disclaimer">${i}</p>` : `<div class="insight-item">${i}</div>`
+  ).join("");
+}
+
+async function loadPatterns(){
+  const res = await fetch(`${API}/patterns?user_id=${currentUserId}`);
+  const data = await res.json();
+  if (!data.patterns.length){
+    document.getElementById("patternsBox").innerHTML = `<p style="color:var(--muted);font-size:13px;">${data.note}</p>`;
+    return;
+  }
+  document.getElementById("patternsBox").innerHTML = `<p style="color:var(--muted);font-size:11.5px;margin-bottom:8px;">${data.note}</p>` +
+    data.patterns.map(p=>{
+      const arrow = p.direction==="up"?"↑":p.direction==="down"?"↓":"→";
+      return `<div class="pattern-row">
+        <span>${CAT_ICON[p.category]||''} ${p.category}</span>
+        <span class="${p.direction}">${arrow} ₹${p.current.toLocaleString('en-IN')} (${p.change_pct>0?'+':''}${p.change_pct}%)</span>
+      </div>`;
+    }).join("");
+}
+
+function askSuggested(text){
+  document.getElementById("chatInput").value = text;
+  sendChat();
+}
+
+async function sendChat(){
+  const input = document.getElementById("chatInput");
+  const message = input.value.trim();
+  if (!message) return;
+  const log = document.getElementById("chatLog");
+  log.innerHTML += `<div class="chat-bubble me">${message}</div>`;
+  input.value = "";
+  const res = await fetch(API+"/chatbot", {method:"POST",headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({user_id: currentUserId, message})});
+  const data = await res.json();
+  log.innerHTML += `<div class="chat-bubble">${data.reply}</div>`;
+  log.scrollTop = log.scrollHeight;
+}
+
+async function loadForecast(){
+  const res = await fetch(`${API}/forecast?user_id=${currentUserId}`);
+  const data = await res.json();
+  document.getElementById("forecastVal").innerText = "₹"+data.estimate.toLocaleString("en-IN");
+  document.getElementById("forecastNote").innerText = data.note;
+}
+</script>
+</body>
+</html>
