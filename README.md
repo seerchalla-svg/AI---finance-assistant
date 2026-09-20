@@ -123,5 +123,4 @@ Note: expense_classifier.pkl and tfidf_vectorizer.pkl must exist in ml/ before s
 
 ## 👩‍💻 Author
 
-**Seershika** — B.Tech Chemical Engineering (Minor: Applied Geophysics), IIT Dhanbad[Screenshots.pdf](https://github.com/user-attachments/files/32437498/Screenshots.pdf)
-
+**Challa Naga Sai Seershika** — B.Tech Chemical Engineering, IIT Dhanbad
